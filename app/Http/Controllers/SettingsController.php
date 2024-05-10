@@ -28,7 +28,7 @@ use Illuminate\Support\Facades\Artisan;
 
 /**
  * This controller handles all actions related to Settings for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @version    v1.0
  */
@@ -38,7 +38,7 @@ class SettingsController extends Controller
      * Checks to see whether or not the database has a migrations table
      * and a user, otherwise display the setup view.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v3.0]
      *
@@ -148,7 +148,7 @@ class SettingsController extends Controller
     /**
      * Save the first admin user from Setup.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v3.0]
      *
@@ -207,7 +207,7 @@ class SettingsController extends Controller
     /**
      * Return the admin user creation form in Setup.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v3.0]
      *
@@ -223,7 +223,7 @@ class SettingsController extends Controller
     /**
      * Return the view that tells the user that the Setup is done.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v3.0]
      *
@@ -240,7 +240,7 @@ class SettingsController extends Controller
      * Migrate the database tables, and return the output
      * to a view for Setup.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v3.0]
      *
@@ -263,7 +263,7 @@ class SettingsController extends Controller
     /**
      * Return a view that shows some of the key settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -279,7 +279,7 @@ class SettingsController extends Controller
     /**
      * Return the admin settings page.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -295,7 +295,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -311,7 +311,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -367,7 +367,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -383,7 +383,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -482,7 +482,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -498,7 +498,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -543,7 +543,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -559,7 +559,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -590,7 +590,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -606,7 +606,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -663,7 +663,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -679,7 +679,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -706,7 +706,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -722,7 +722,7 @@ class SettingsController extends Controller
     /**
      * Saves settings from form.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -750,7 +750,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -767,7 +767,7 @@ class SettingsController extends Controller
     /**
      * Saves settings from form.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.0]
      *
@@ -796,7 +796,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v4.0]
      *
@@ -815,7 +815,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v4.0]
      *
@@ -831,7 +831,7 @@ class SettingsController extends Controller
     /**
      * Saves settings from form.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v4.0]
      *
@@ -900,7 +900,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v4.0]
      *
@@ -916,7 +916,7 @@ class SettingsController extends Controller
     /**
      * Saves settings from form.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v4.0]
      *
@@ -1036,7 +1036,7 @@ class SettingsController extends Controller
     /**
      * Show the listing of backups.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.8]
      *
@@ -1079,7 +1079,7 @@ class SettingsController extends Controller
     /**
      * Process the backup.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.8]
      *
@@ -1113,7 +1113,7 @@ class SettingsController extends Controller
     /**
      * Download the backup file.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.8]
      *
@@ -1139,7 +1139,7 @@ class SettingsController extends Controller
     /**
      * Delete the backup file.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v1.8]
      *
@@ -1170,7 +1170,7 @@ class SettingsController extends Controller
     /**
      * Uploads a backup file
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v6.0]
      *
@@ -1214,7 +1214,7 @@ class SettingsController extends Controller
     /**
      * Restore the backup file.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v6.0]
      *
@@ -1241,7 +1241,7 @@ class SettingsController extends Controller
                 \Log::debug('Attempting to restore from: '. storage_path($path).'/'.$filename);
 
                 // run the restore command
-                Artisan::call('snipeit:restore', 
+                Artisan::call('bewsys:restore',
                 [
                     '--force' => true, 
                     '--no-progress' => true, 
@@ -1262,7 +1262,7 @@ class SettingsController extends Controller
 
 
                     \Log::debug('Logging all users out..');
-                    Artisan::call('snipeit:global-logout', ['--force' => true]);
+                    Artisan::call('bewsys:global-logout', ['--force' => true]);
                     
                     /* run migrations */
                     \Log::debug('Migrating database...');
@@ -1290,7 +1290,7 @@ class SettingsController extends Controller
     /**
      * Return a form to allow a super admin to update settings.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v4.0]
      *
@@ -1306,7 +1306,7 @@ class SettingsController extends Controller
     /**
      * Purges soft-deletes.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v3.0]
      *
@@ -1319,7 +1319,7 @@ class SettingsController extends Controller
                 \Log::warning('User ID '.Auth::user()->id.' initiated a PURGE!');
                 // Run a backup immediately before processing
                 Artisan::call('backup:run');
-                Artisan::call('snipeit:purge', ['--force' => 'true', '--no-interaction' => true]);
+                Artisan::call('bewsys:purge', ['--force' => 'true', '--no-interaction' => true]);
                 $output = Artisan::output();
 
                 return view('settings/purge')
@@ -1338,7 +1338,7 @@ class SettingsController extends Controller
      * We created a controller method for this because closures aren't allowed
      * in the routes file if you want to be able to cache the routes.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v4.0]
      *
@@ -1352,7 +1352,7 @@ class SettingsController extends Controller
     /**
      * Test the email configuration.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      *
      * @since [v3.0]
      *

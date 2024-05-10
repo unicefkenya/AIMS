@@ -184,7 +184,7 @@ class SettingsController extends Controller
     /**
      * Test the email configuration
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return Redirect
      */
@@ -206,7 +206,7 @@ class SettingsController extends Controller
     /**
      * Delete server-cached barcodes
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v5.0.0]
      * @return Response
      */
@@ -246,7 +246,7 @@ class SettingsController extends Controller
     /**
      * Get a list of login attempts
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v5.0.0]
      * @param  \Illuminate\Http\Request  $request
      * @return array

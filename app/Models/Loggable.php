@@ -165,7 +165,7 @@ trait Loggable
     }
 
     /**
-     * @author  A. Gianotto <snipe@snipe.net>
+     * @author 
      * @since [v4.0]
      * @return \App\Models\Actionlog
      */

@@ -71,7 +71,7 @@ class CustomFieldset extends Model
      * Determine the validation rules we should apply based on the
      * custom field format
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return array
      */

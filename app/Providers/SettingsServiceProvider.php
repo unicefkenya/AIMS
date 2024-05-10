@@ -6,7 +6,7 @@ use App\Models\Setting;
 use Illuminate\Support\ServiceProvider;
 
 /**
- * This service provider handles sharing the snipeSettings variable, and sets
+ * This service provider handles sharing the BewsysSettings variable, and sets
  * some common upload path and image urls.
  *
  * PHP version 5.5.9
@@ -17,7 +17,7 @@ class SettingsServiceProvider extends ServiceProvider
     /**
      * Custom email array validation
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return void
      */

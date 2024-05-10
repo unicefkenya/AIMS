@@ -18,12 +18,12 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule)
     {
-        $schedule->command('snipeit:inventory-alerts')->daily();
-        $schedule->command('snipeit:expiring-alerts')->daily();
-        $schedule->command('snipeit:expected-checkin')->daily();
-        $schedule->command('snipeit:backup')->weekly();
+        $schedule->command('bewsys:inventory-alerts')->daily();
+        $schedule->command('bewsys:expiring-alerts')->daily();
+        $schedule->command('bewsys:expected-checkin')->daily();
+        $schedule->command('bewsys:backup')->weekly();
         $schedule->command('backup:clean')->daily();
-        $schedule->command('snipeit:upcoming-audits')->daily();
+        $schedule->command('bewsys:upcoming-audits')->daily();
         $schedule->command('auth:clear-resets')->everyFifteenMinutes();
     }
 

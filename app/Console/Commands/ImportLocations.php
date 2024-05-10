@@ -13,7 +13,7 @@ class ImportLocations extends Command
      *
      * @var string
      */
-    protected $signature = 'snipeit:import-locations {filename}';
+    protected $signature = 'bewsys:import-locations {filename}';
 
     /**
      * The console command description.

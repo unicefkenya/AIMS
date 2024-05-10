@@ -18,7 +18,7 @@ class ComponentsController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      *
      * @return \Illuminate\Http\Response
@@ -104,7 +104,7 @@ class ComponentsController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \App\Http\Requests\ImageUploadRequest  $request
      * @return \Illuminate\Http\Response
@@ -126,7 +126,7 @@ class ComponentsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
@@ -143,7 +143,7 @@ class ComponentsController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param   \App\Http\Requests\ImageUploadRequest  $request
      * @param  int  $id
@@ -167,7 +167,7 @@ class ComponentsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -210,7 +210,7 @@ class ComponentsController extends Controller
     /**
      * Validate and checkout the component.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * t
      * @since [v5.1.8]
      * @param Request $request
@@ -256,7 +256,7 @@ class ComponentsController extends Controller
     /**
      * Validate and store checkin data.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v5.1.8]
      * @param Request $request
      * @param $component_asset_id

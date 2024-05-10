@@ -20,7 +20,7 @@ Create a User ::
     <div class="row">
       <div class="form-group col-lg-12 required {{ $errors->has('site_name') ? 'error' : '' }}">
         {{ Form::label('site_name', trans('general.site_name')) }}
-        {{ Form::text('site_name', Request::old('site_name'), array('class' => 'form-control','placeholder' => 'Snipe-IT Asset Management')) }}
+        {{ Form::text('site_name', Request::old('site_name'), array('class' => 'form-control','placeholder' => 'Bewsys Asset Management')) }}
 
         {!! $errors->first('site_name', '<span class="alert-msg" aria-hidden="true">:message</span>') !!}
       </div>

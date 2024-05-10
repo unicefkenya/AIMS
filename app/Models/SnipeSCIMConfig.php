@@ -41,7 +41,7 @@ class SnipeSCIMConfig extends \ArieTimmerman\Laravel\SCIMServer\SCIMConfig
             } 
         );
 
-        $config['validations'][$core.'emails'] = 'nullable|array';         // emails are not required in Snipe-IT...
+        $config['validations'][$core.'emails'] = 'nullable|array';         // emails are not required in Bewsys...
         $config['validations'][$core.'emails.*.value'] = 'required|email'; // ...but if you give us one, it better be an email address
 
         $mappings['emails'] = [[
@@ -95,7 +95,7 @@ class SnipeSCIMConfig extends \ArieTimmerman\Laravel\SCIMServer\SCIMConfig
         $mappings['preferredLanguage'] = AttributeMapping::eloquent('locale');
 
         /* 
-          more snipe-it attributes I'd like to check out (to map to 'enterprise' maybe?):
+          more Bewsys attributes I'd like to check out (to map to 'enterprise' maybe?):
          - website
          - notes?
          - remote???

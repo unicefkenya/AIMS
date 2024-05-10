@@ -15,7 +15,7 @@ return [
     | DO NOT MAKE CHANGES DIRECTLY TO THIS FILE.
     |
     | Instead use your .env file to set your application configuration settings.
-    | See https://snipe-it.readme.io/docs/configuration for more info.
+    | See for more info.
     |
     |--------------------------------------------------------------------------
     | Mail Driver

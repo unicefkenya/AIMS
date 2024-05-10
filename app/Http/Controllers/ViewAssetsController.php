@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Auth;
 
 /**
  * This controller handles all actions related to the ability for users
- * to view their own assets in the Snipe-IT Asset Management application.
+ * to view their own assets in the Bewsys Asset Management application.
  *
  * @version    v1.0
  */

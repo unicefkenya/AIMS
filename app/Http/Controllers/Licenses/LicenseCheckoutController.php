@@ -19,7 +19,7 @@ class LicenseCheckoutController extends Controller
      * because licenses themselves are never checked out to anyone,
      * only the seats associated with them.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param $licenseId
      * @return \Illuminate\Contracts\View\View
@@ -44,7 +44,7 @@ class LicenseCheckoutController extends Controller
     /**
      * Validates and stores the license checkout action.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param LicenseCheckoutRequest $request
      * @param $licenseId

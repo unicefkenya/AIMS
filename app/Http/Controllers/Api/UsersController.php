@@ -25,7 +25,7 @@ class UsersController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      *
      * @return \Illuminate\Http\Response
@@ -209,7 +209,7 @@ class UsersController extends Controller
     /**
      * Gets a paginated collection for the select2 menus
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0.16]
      * @see \App\Http\Transformers\SelectlistTransformer
      */
@@ -266,7 +266,7 @@ class UsersController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -309,7 +309,7 @@ class UsersController extends Controller
     /**
      * Display the specified resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
@@ -325,7 +325,7 @@ class UsersController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -342,7 +342,7 @@ class UsersController extends Controller
          * 
          * The $ids 1 and 2 are special since they are seeded as superadmins in the demo seeder.
          * 
-         *  Thanks, jerks. You are why we can't have nice things. - snipe
+         *  Thanks, jerks. You are why we can't have nice things.
          * 
          */ 
 
@@ -387,7 +387,7 @@ class UsersController extends Controller
         if ($user->save()) {
 
             // Sync group memberships:
-            // This was changed in Snipe-IT v4.6.x to 4.7, since we upgraded to Laravel 5.5
+            // This was changed in Bewsys v4.6.x to 4.7, since we upgraded to Laravel 5.5
             // which changes the behavior of has vs filled.
             // The $request->has method will now return true even if the input value is an empty string or null.
             // A new $request->filled method has was added that provides the previous behavior of the has method.
@@ -410,7 +410,7 @@ class UsersController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -457,7 +457,7 @@ class UsersController extends Controller
     /**
      * Return JSON containing a list of assets assigned to a user.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @param $userId
      * @return string JSON
@@ -475,7 +475,7 @@ class UsersController extends Controller
     /**
      * Return JSON containing a list of consumables assigned to a user.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @param $userId
      * @return string JSON
@@ -492,7 +492,7 @@ class UsersController extends Controller
     /**
      * Return JSON containing a list of accessories assigned to a user.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.6.14]
      * @param $userId
      * @return string JSON
@@ -510,7 +510,7 @@ class UsersController extends Controller
     /**
      * Return JSON containing a list of licenses assigned to a user.
      *
-     * @author [N. Mathar] [<snipe@snipe.net>]
+     * @author 
      * @since [v5.0]
      * @param $userId
      * @return string JSON
@@ -532,7 +532,7 @@ class UsersController extends Controller
     /**
      * Reset the user's two-factor status
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @param $userId
      * @return string JSON

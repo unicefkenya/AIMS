@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 class FixBadLdapServerUrlForV5 extends Migration
 {
     /**
-     * Under v4 and previous versions of Snipe-IT, we permitted users to incorrectly specify LDAP URL's in their settings, and Snipe-IT
+     * Under v4 and previous versions of bewsys, we permitted users to incorrectly specify LDAP URL's in their settings, and bewsys
      * would silently permit that.
      *
      * v5's LDAP system is not so lenient, and requires either ldap:// or ldaps:// in front of the server's URL. This migration tries

@@ -44,7 +44,7 @@ class Group extends SnipeModel
     /**
      * Establishes the groups -> users relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -56,7 +56,7 @@ class Group extends SnipeModel
     /**
      * Decode JSON permissions into array
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return array
      */

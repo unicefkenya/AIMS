@@ -31,10 +31,10 @@ class MigrateMacAddress extends Migration
         \App\Models\AssetModel::where(['show_mac_address' => true])->update(['fieldset_id'=>$f2->id]);
 
         Schema::table('assets', function (Blueprint $table) {
-            $table->renameColumn('mac_address', '_snipeit_mac_address');
+            $table->renameColumn('mac_address', '_bewsys_mac_address');
         });
 
-        // DB::statement("ALTER TABLE assets CHANGE mac_address _snipeit_mac_address varchar(255)");
+        // DB::statement("ALTER TABLE assets CHANGE mac_address _bewsys_mac_address varchar(255)");
 
         $ans = Schema::table('models', function (Blueprint $table) {
             $table->renameColumn('show_mac_address', 'deprecated_mac_address');
@@ -55,6 +55,6 @@ class MigrateMacAddress extends Migration
         Schema::table('models', function (Blueprint $table) {
             $table->renameColumn('deprecated_mac_address', 'show_mac_address');
         });
-        DB::statement('ALTER TABLE assets CHANGE _snipeit_mac_address mac_address varchar(255)');
+        DB::statement('ALTER TABLE assets CHANGE _bewsys_mac_address mac_address varchar(255)');
     }
 }

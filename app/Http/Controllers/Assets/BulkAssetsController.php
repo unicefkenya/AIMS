@@ -20,7 +20,7 @@ class BulkAssetsController extends Controller
     /**
      * Display the bulk edit page.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @return View
      * @internal param int $assetId
      * @since [v2.0]
@@ -73,7 +73,7 @@ class BulkAssetsController extends Controller
     /**
      * Save bulk edits
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @return Redirect
      * @internal param array $assets
      * @since [v2.0]
@@ -193,7 +193,7 @@ class BulkAssetsController extends Controller
     /**
      * Save bulk deleted.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param Request $request
      * @return View
      * @throws \Illuminate\Auth\Access\AuthorizationException

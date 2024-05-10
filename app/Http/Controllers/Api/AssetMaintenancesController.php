@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Input;
 
 /**
  * This controller handles all actions related to Asset Maintenance for
- * the Snipe-IT Asset Management application.
+ * the bewsys Asset Management application.
  *
  * @version    v2.0
  */
@@ -159,7 +159,7 @@ class AssetMaintenancesController extends Controller
     /**
      *  Validates and stores an update to an asset maintenance
      *
-     * @author  A. Gianotto <snipe@snipe.net>
+     * @author 
      * @param int $assetMaintenanceId
      * @param int $request
      * @version v1.0
@@ -224,7 +224,7 @@ class AssetMaintenancesController extends Controller
     /**
      *  Delete an asset maintenance
      *
-     * @author  A. Gianotto <snipe@snipe.net>
+     * @author 
      * @param int $assetMaintenanceId
      * @version v1.0
      * @since [v4.0]
@@ -250,7 +250,7 @@ class AssetMaintenancesController extends Controller
     /**
      *  View an asset maintenance
      *
-     * @author  A. Gianotto <snipe@snipe.net>
+     * @author 
      * @param int $assetMaintenanceId
      * @version v1.0
      * @since [v4.0]

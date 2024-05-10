@@ -141,7 +141,7 @@ class Saml
     }
 
     /**
-     * Builds settings from Snipe-IT for OneLogin_Saml2_Auth.
+     * Builds settings from Bewsys for OneLogin_Saml2_Auth.
      *
      * @author Johnson Yi <jyi.dev@outlook.com>
      * @author Michael Pietsch <skywalker-11@mi-pietsch.de>

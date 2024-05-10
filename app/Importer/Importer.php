@@ -241,7 +241,7 @@ abstract class Importer
     /**
      * Figure out the fieldname of the custom field
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since 3.0
      * @param $array array
      * @return string

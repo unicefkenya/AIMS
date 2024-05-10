@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Auth;
 
 /**
  * This controller handles all actions related to Status Labels for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @version    v1.0
  */

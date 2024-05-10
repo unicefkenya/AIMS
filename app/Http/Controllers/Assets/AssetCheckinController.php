@@ -18,7 +18,7 @@ class AssetCheckinController extends Controller
     /**
      * Returns a view that presents a form to check an asset back into inventory.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @param string $backto
      * @return View
@@ -41,7 +41,7 @@ class AssetCheckinController extends Controller
     /**
      * Validate and process the form data to check an asset back into inventory.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param AssetCheckinRequest $request
      * @param int $assetId
      * @param null $backto
@@ -79,7 +79,7 @@ class AssetCheckinController extends Controller
         }
 
         // This is just meant to correct legacy issues where some user data would have 0
-        // as a location ID, which isn't valid. Later versions of Snipe-IT have stricter validation
+        // as a location ID, which isn't valid. Later versions of Bewsys have stricter validation
         // rules, so it's necessary to fix this for long-time users. It's kinda gross, but will help
         // people (and their data) in the long run
 

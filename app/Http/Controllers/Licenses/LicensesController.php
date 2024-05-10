@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\DB;
 
 /**
  * This controller handles all actions related to Licenses for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @version    v1.0
  */
@@ -22,7 +22,7 @@ class LicensesController extends Controller
      * Returns a view that invokes the ajax tables which actually contains
      * the content for the licenses listing, which is generated in getDatatable.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see LicensesController::getDatatable() method that generates the JSON response
      * @since [v1.0]
      * @return \Illuminate\Contracts\View\View
@@ -38,7 +38,7 @@ class LicensesController extends Controller
     /**
      * Returns a form view that allows an admin to create a new licence.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see AccessoriesController::getDatatable() method that generates the JSON response
      * @since [v1.0]
      * @return \Illuminate\Contracts\View\View
@@ -63,7 +63,7 @@ class LicensesController extends Controller
      * Validates and stores the license form data submitted from the new
      * license form.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see LicensesController::getCreate() method that provides the form view
      * @since [v1.0]
      * @param Request $request
@@ -109,7 +109,7 @@ class LicensesController extends Controller
      * Returns a form with existing license data to allow an admin to
      * update license information.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param int $licenseId
      * @return \Illuminate\Contracts\View\View
@@ -139,7 +139,7 @@ class LicensesController extends Controller
      * Validates and stores the license form data submitted from the edit
      * license form.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see LicensesController::getEdit() method that provides the form view
      * @since [v1.0]
      * @param Request $request
@@ -186,7 +186,7 @@ class LicensesController extends Controller
      * Checks to see whether the selected license can be deleted, and
      * if it can, marks it as deleted.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param int $licenseId
      * @return \Illuminate\Http\RedirectResponse
@@ -223,7 +223,7 @@ class LicensesController extends Controller
     /**
      * Makes the license detail page.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param int $licenseId
      * @return \Illuminate\Contracts\View\View

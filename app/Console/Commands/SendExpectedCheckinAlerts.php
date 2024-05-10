@@ -17,7 +17,7 @@ class SendExpectedCheckinAlerts extends Command
      *
      * @var string
      */
-    protected $name = 'snipeit:expected-checkin';
+    protected $name = 'bewsys:expected-checkin';
 
     /**
      * The console command description.

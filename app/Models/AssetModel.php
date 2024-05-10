@@ -94,7 +94,7 @@ class AssetModel extends SnipeModel
     /**
      * Establishes the model -> assets relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -106,7 +106,7 @@ class AssetModel extends SnipeModel
     /**
      * Establishes the model -> category relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -118,7 +118,7 @@ class AssetModel extends SnipeModel
     /**
      * Establishes the model -> depreciation relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -130,7 +130,7 @@ class AssetModel extends SnipeModel
     /**
      * Establishes the model -> manufacturer relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -142,7 +142,7 @@ class AssetModel extends SnipeModel
     /**
      * Establishes the model -> fieldset relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -168,7 +168,7 @@ class AssetModel extends SnipeModel
      *
      * @todo this should probably be moved
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */

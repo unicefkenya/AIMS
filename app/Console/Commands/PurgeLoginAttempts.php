@@ -11,7 +11,7 @@ class PurgeLoginAttempts extends Command
      *
      * @var string
      */
-    protected $signature = 'snipeit:purge-logins';
+    protected $signature = 'bewsys:purge-logins';
 
     /**
      * The console command description.

@@ -16,7 +16,7 @@ class SuppliersController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \Illuminate\Http\Response
      */
@@ -55,7 +55,7 @@ class SuppliersController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \App\Http\Requests\ImageUploadRequest  $request
      * @return \Illuminate\Http\Response
@@ -77,7 +77,7 @@ class SuppliersController extends Controller
     /**
      * Display the specified resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -94,7 +94,7 @@ class SuppliersController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \App\Http\Requests\ImageUploadRequest  $request
      * @param  int  $id
@@ -117,7 +117,7 @@ class SuppliersController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -149,7 +149,7 @@ class SuppliersController extends Controller
     /**
      * Gets a paginated collection for the select2 menus
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0.16]
      * @see \App\Http\Transformers\SelectlistTransformer
      */

@@ -17,7 +17,7 @@ class AccessoryCheckoutController extends Controller
     /**
      * Return the form to checkout an Accessory to a user.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param  int $accessoryId
      * @return View
      * @throws \Illuminate\Auth\Access\AuthorizationException
@@ -46,7 +46,7 @@ class AccessoryCheckoutController extends Controller
      * If Slack is enabled and/or asset acceptance is enabled, it will also
      * trigger a Slack message and send an email.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param Request $request
      * @param  int $accessoryId
      * @return Redirect

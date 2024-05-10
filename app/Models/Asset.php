@@ -247,7 +247,7 @@ class Asset extends Depreciable
     /**
      * Establishes the asset -> company relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -262,7 +262,7 @@ class Asset extends Depreciable
      * OR if the assigned_to and deleted_at fields on the asset are empty AND
      * that the status is deployable
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return bool
      */
@@ -289,7 +289,7 @@ class Asset extends Depreciable
      *
      * @todo The admin parameter is never used. Can probably be removed.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param User $user
      * @param User $admin
      * @param Carbon $checkout_at
@@ -354,7 +354,7 @@ class Asset extends Depreciable
     /**
      * Sets the detailedNameAttribute
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return string
      */
@@ -372,7 +372,7 @@ class Asset extends Depreciable
     /**
      * Pulls in the validation rules
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return array
      */
@@ -385,7 +385,7 @@ class Asset extends Depreciable
     /**
      * Establishes the asset -> depreciation relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -398,7 +398,7 @@ class Asset extends Depreciable
     /**
      * Get components assigned to this asset
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -413,7 +413,7 @@ class Asset extends Depreciable
      *
      * @todo Is this still needed?
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -428,7 +428,7 @@ class Asset extends Depreciable
     /**
      * Get uploads for this asset
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -447,7 +447,7 @@ class Asset extends Depreciable
      * Even though we allow allow for checkout to things beyond users
      * this method is an easy way of seeing if we are checked out to a user.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return bool
      */
@@ -459,7 +459,7 @@ class Asset extends Depreciable
     /**
      * Get the target this asset is checked out to
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -473,7 +473,7 @@ class Asset extends Depreciable
      *
      * Sigh.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -488,7 +488,7 @@ class Asset extends Depreciable
      *
      * @todo Refactor this if possible. It's awful.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \ArrayObject
      */
@@ -529,7 +529,7 @@ class Asset extends Depreciable
     /**
      * Gets the lowercased name of the type of target the asset is assigned to
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return string
      */
@@ -541,7 +541,7 @@ class Asset extends Depreciable
     /**
      * Get the asset's location based on default RTD location
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -556,7 +556,7 @@ class Asset extends Depreciable
      * Check first to see if there is a specific image uploaded to the asset,
      * and if not, check for an image uploaded to the asset model.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return string | false
      */
@@ -575,7 +575,7 @@ class Asset extends Depreciable
     /**
      * Get the asset's logs
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -590,7 +590,7 @@ class Asset extends Depreciable
     /**
      * Get the list of checkouts for this asset
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -604,7 +604,7 @@ class Asset extends Depreciable
     /**
      * Get the list of checkins for this asset
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -619,7 +619,7 @@ class Asset extends Depreciable
     /**
      * Get the asset's user requests
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -648,7 +648,7 @@ class Asset extends Depreciable
     /**
      * Get action logs history for this asset
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -662,7 +662,7 @@ class Asset extends Depreciable
     /**
      * Establishes the asset -> status relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -674,7 +674,7 @@ class Asset extends Depreciable
     /**
      * Establishes the asset -> model relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -687,7 +687,7 @@ class Asset extends Depreciable
      * Return the assets with a warranty expiring within x days
      *
      * @param $days
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return mixed
      */
@@ -710,7 +710,7 @@ class Asset extends Depreciable
     /**
      * Establishes the asset -> assigned licenses relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -722,7 +722,7 @@ class Asset extends Depreciable
     /**
      * Establishes the asset -> status relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -734,7 +734,7 @@ class Asset extends Depreciable
     /**
      * Establishes the asset -> aupplier relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -746,7 +746,7 @@ class Asset extends Depreciable
     /**
      * Establishes the asset -> location relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -760,7 +760,7 @@ class Asset extends Depreciable
     /**
      * Get the next autoincremented asset tag
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return string | false
      */
@@ -793,7 +793,7 @@ class Asset extends Depreciable
      *
      * We'll add the zerofill and prefixes on the fly as we generate the number.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return int
      */
@@ -826,7 +826,7 @@ class Asset extends Depreciable
      *
      * We'll add the zerofill and prefixes on the fly as we generate the number.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return string
      */
@@ -839,7 +839,7 @@ class Asset extends Depreciable
      * Determine whether to send a checkin/checkout email based on
      * asset model category
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return bool
      */
@@ -853,7 +853,7 @@ class Asset extends Depreciable
     /**
      * Determine whether this asset requires acceptance by the assigned user
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return bool
      */
@@ -869,7 +869,7 @@ class Asset extends Depreciable
      * Checks for a category-specific EULA, and if that doesn't exist,
      * checks for a settings level EULA
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return string | false
      */
@@ -1070,7 +1070,7 @@ class Asset extends Depreciable
      * Query builder scope for Assets that are due for auditing, based on the assets.next_audit_date
      * and settings.audit_warning_days.
      *
-     * This is/will be used in the artisan command snipeit:upcoming-audits and also
+     * This is/will be used in the artisan command bewsys:upcoming-audits and also
      * for an upcoming API call for retrieving a report on assets that will need to be audited.
      *
      * Due for audit soon:
@@ -1082,7 +1082,7 @@ class Asset extends Depreciable
      * threshold for alerts = 30 days
      * now = May 4, 2019
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since v4.6.16
      * @param Setting $settings
      *
@@ -1104,10 +1104,10 @@ class Asset extends Depreciable
      * Query builder scope for Assets that are OVERDUE for auditing, based on the assets.next_audit_date
      * and settings.audit_warning_days. It checks to see if assets.next audit_date is before now
      *
-     * This is/will be used in the artisan command snipeit:upcoming-audits and also
+     * This is/will be used in the artisan command bewsys:upcoming-audits and also
      * for an upcoming API call for retrieving a report on overdue assets.
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since v4.6.16
      * @param Setting $settings
      *
@@ -1126,10 +1126,10 @@ class Asset extends Depreciable
      * Query builder scope for Assets that are due for auditing OR overdue, based on the assets.next_audit_date
      * and settings.audit_warning_days.
      *
-     * This is/will be used in the artisan command snipeit:upcoming-audits and also
+     * This is/will be used in the artisan command bewsys:upcoming-audits and also
      * for an upcoming API call for retrieving a report on assets that will need to be audited.
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since v4.6.16
      * @param Setting $settings
      *
@@ -1309,7 +1309,7 @@ class Asset extends Depreciable
     /**
      * Query builder scope to search the department ID of users assigned to assets
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v5.0]
      * @return string | false
      *
@@ -1469,7 +1469,7 @@ class Asset extends Depreciable
              * assets.location would fail, as that field doesn't exist -- plus we're already searching
              * against those relationships earlier in this method.
              *
-             * - snipe 
+             *
              *
              */
 

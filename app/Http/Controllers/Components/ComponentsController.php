@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Validator;
 
 /**
  * This class controls all actions related to Components for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @version    v1.0
  */
@@ -24,7 +24,7 @@ class ComponentsController extends Controller
      * Returns a view that invokes the ajax tables which actually contains
      * the content for the components listing, which is generated in getDatatable.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ComponentsController::getDatatable() method that generates the JSON response
      * @since [v3.0]
      * @return \Illuminate\Contracts\View\View
@@ -41,7 +41,7 @@ class ComponentsController extends Controller
     /**
      * Returns a form to create a new component.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ComponentsController::postCreate() method that stores the data
      * @since [v3.0]
      * @return \Illuminate\Contracts\View\View
@@ -58,7 +58,7 @@ class ComponentsController extends Controller
     /**
      * Validate and store data for new component.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ComponentsController::getCreate() method that generates the view
      * @since [v3.0]
      * @param ImageUploadRequest $request
@@ -94,7 +94,7 @@ class ComponentsController extends Controller
     /**
      * Return a view to edit a component.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ComponentsController::postEdit() method that stores the data.
      * @since [v3.0]
      * @param int $componentId
@@ -116,7 +116,7 @@ class ComponentsController extends Controller
     /**
      * Return a view to edit a component.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ComponentsController::getEdit() method presents the form.
      * @param ImageUploadRequest $request
      * @param int $componentId
@@ -167,7 +167,7 @@ class ComponentsController extends Controller
     /**
      * Delete a component.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @param int $componentId
      * @return \Illuminate\Http\RedirectResponse
@@ -198,7 +198,7 @@ class ComponentsController extends Controller
     /**
      * Return a view to display component information.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ComponentsController::getDataView() method that generates the JSON response
      * @since [v3.0]
      * @param int $componentId

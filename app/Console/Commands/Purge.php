@@ -23,7 +23,7 @@ class Purge extends Command
      *
      * @var string
      */
-    protected $signature = 'snipeit:purge {--force=false}';
+    protected $signature = 'bewsys:purge {--force=false}';
 
     /**
      * The console command description.

@@ -14,14 +14,14 @@ class ResetDemoSettings extends Command
      *
      * @var string
      */
-    protected $signature = 'snipeit:demo-settings';
+    protected $signature = 'bewsys:demo-settings';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'This will reset the Snipe-IT demo settings back to default. ';
+    protected $description = 'This will reset the Bewsys Dev demo settings back to default. ';
 
     /**
      * Create a new command instance.
@@ -44,10 +44,10 @@ class ResetDemoSettings extends Command
         $this->info('Resetting the demo settings.');
         $settings = Setting::first();
         $settings->per_page = 20;
-        $settings->site_name = 'Snipe-IT Asset Management Demo';
+        $settings->site_name = 'Bewsys Dev Asset Management Demo';
         $settings->auto_increment_assets = 1;
-        $settings->logo = 'snipe-logo.png';
-        $settings->alert_email = 'service@snipe-it.io';
+        $settings->logo = 'bewsys-logo.png';
+        $settings->alert_email = 'service@bewsys.com';
         $settings->login_note = 'Use `admin` / `password` to login to the demo.';
         $settings->header_color = null;
         $settings->barcode_type = 'QRCODE';
@@ -57,7 +57,7 @@ class ResetDemoSettings extends Command
         $settings->full_multiple_companies_support = 0;
         $settings->alt_barcode = 'C128';
         $settings->skin = '';
-        $settings->email_domain = 'snipeitapp.com';
+        $settings->email_domain = 'bewsysapp.com';
         $settings->email_format = 'filastname';
         $settings->username_format = 'filastname';
         $settings->date_display_format = 'D M d, Y';
@@ -82,8 +82,8 @@ class ResetDemoSettings extends Command
             $user->save();
         }
 
-        \Storage::disk('public')->put('snipe-logo.png', file_get_contents(public_path('img/demo/snipe-logo.png')));
-        \Storage::disk('public')->put('snipe-logo-lg.png', file_get_contents(public_path('img/demo/snipe-logo-lg.png')));
+        \Storage::disk('public')->put('bewsys-logo.png', file_get_contents(public_path('img/demo/bewsys-logo.png')));
+        \Storage::disk('public')->put('bewsys-logo-lg.png', file_get_contents(public_path('img/demo/bewsys-logo-lg.png')));
 
     }
 

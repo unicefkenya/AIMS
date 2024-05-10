@@ -26,8 +26,8 @@ class ActionlogsTransformer
         // then a new custom field is added, and the asset is saved again.
         // It can result in funnily-formatted strings like:
         //
-        // {"_snipeit_right_sized_fault_tolerant_localareanetwo_1":
-        // {"old":null,"new":{"value":"1579490695972","_snipeit_new_field_2":2,"_snipeit_new_field_3":"Monday, 20 January 2020 2:24:55 PM"}}
+        // {"_bewsys_right_sized_fault_tolerant_localareanetwo_1":
+        // {"old":null,"new":{"value":"1579490695972","_bewsys_new_field_2":2,"_bewsys_new_field_3":"Monday, 20 January 2020 2:24:55 PM"}}
         // so we have to walk down that next level
         if(is_object($value) && isset($value->value)) {
             return $this->clean_field($value->value);

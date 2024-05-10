@@ -16,7 +16,7 @@ class RecryptFromMcrypt extends Command
      *
      * @var string
      */
-    protected $signature = 'snipeit:legacy-recrypt 
+    protected $signature = 'bewsys:legacy-recrypt 
                 {--force : Force a re-crypt of encrypted data from MCRYPT.}';
 
     /**
@@ -78,7 +78,7 @@ class RecryptFromMcrypt extends Command
 
         $this->error('================================!!!! WARNING !!!!================================');
         $this->error('================================!!!! WARNING !!!!================================');
-        $this->comment("This tool will attempt to decrypt your old Snipe-IT (mcrypt, now deprecated) encrypted data and re-encrypt it using OpenSSL. \n\nYou should only continue if you have backed up any and all old APP_KEYs and have backed up your data.");
+        $this->comment("This tool will attempt to decrypt your old Bewsys Dev (mcrypt, now deprecated) encrypted data and re-encrypt it using OpenSSL. \n\nYou should only continue if you have backed up any and all old APP_KEYs and have backed up your data.");
 
         $force = ($this->option('force')) ? true : false;
 

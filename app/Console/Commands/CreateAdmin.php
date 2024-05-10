@@ -11,7 +11,7 @@ class CreateAdmin extends Command
      *
      * @var string
      */
-    protected $signature = 'snipeit:create-admin {--first_name=} {--last_name=}  {--email=}  {--username=}  {--password=}   {show_in_list?}';
+    protected $signature = 'bewsys:create-admin {--first_name=} {--last_name=}  {--email=}  {--username=}  {--password=}   {show_in_list?}';
 
     /**
      * The console command description.

@@ -16,7 +16,7 @@ use View;
 
 /**
  * This controller handles all actions related to Asset Maintenance for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @version    v2.0
  */

@@ -68,7 +68,7 @@ class Department extends SnipeModel
     /**
      * Establishes the department -> company relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -80,7 +80,7 @@ class Department extends SnipeModel
     /**
      * Establishes the department -> users relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -92,7 +92,7 @@ class Department extends SnipeModel
     /**
      * Establishes the department -> manager relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -104,7 +104,7 @@ class Department extends SnipeModel
     /**
      * Establishes the department -> location relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */

@@ -156,7 +156,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
      * Parses the user and group permission masks to see if the user
      * is authorized to do the thing
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return bool
      */
@@ -172,7 +172,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Checks if the user is a SuperUser
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return bool
      */
@@ -185,7 +185,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Establishes the user -> company relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -197,7 +197,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Establishes the user -> department relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -209,7 +209,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Checks activated status
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return bool
      */
@@ -221,7 +221,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Returns the full name attribute
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v2.0]
      * @return string
      */
@@ -235,7 +235,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
      *
      * @todo refactor this so it's less repetitive and dumb
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v2.0]
      * @return string
      */
@@ -262,7 +262,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Establishes the user -> assets relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -277,7 +277,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
      * This would only be used to return maintenances that this user
      * created.
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -289,7 +289,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Establishes the user -> accessories relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -302,7 +302,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Establishes the user -> consumables relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -314,7 +314,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Establishes the user -> license seats relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -326,7 +326,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Establishes the user -> actionlogs relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -342,7 +342,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
      *
      * @todo - this should be removed once we're sure we've switched it to location()
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -354,7 +354,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Establishes the user -> location relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -366,7 +366,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Establishes the user -> manager relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -378,7 +378,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Establishes the user -> managed locations relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -390,7 +390,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Establishes the user -> groups relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -402,7 +402,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Establishes the user -> assets relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -416,7 +416,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
      *
      * @todo I don't think we use this?
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -432,7 +432,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Establishes the user -> requested assets relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -444,7 +444,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
 
     /**
      * Query builder scope to return NOT-deleted users
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v2.0]
      *
      * @param  string $query
@@ -458,7 +458,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Query builder scope to return users by email or username
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v2.0]
      *
      * @param  string $query
@@ -476,7 +476,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
     /**
      * Generate email from full name
      * 
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v2.0]
      *
      * @param  string $query
@@ -541,7 +541,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
      * 1 = 2FA optional
      * 2 = 2FA universally required
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      *
      * @return bool
@@ -569,7 +569,7 @@ class User extends SnipeModel implements AuthenticatableContract, AuthorizableCo
      * 1 = 2FA optional
      * 2 = 2FA universally required
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.6.14]
      *
      * @return bool

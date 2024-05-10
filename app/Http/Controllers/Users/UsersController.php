@@ -26,7 +26,7 @@ use View;
 
 /**
  * This controller handles all actions related to Users for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @version    v1.0
  */
@@ -36,7 +36,7 @@ class UsersController extends Controller
      * Returns a view that invokes the ajax tables which actually contains
      * the content for the users listing, which is generated in getDatatable().
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see UsersController::getDatatable() method that generates the JSON response
      * @since [v1.0]
      * @return \Illuminate\Contracts\View\View
@@ -52,7 +52,7 @@ class UsersController extends Controller
     /**
      * Returns a view that displays the user creation form.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @return \Illuminate\Contracts\View\View
      * @throws \Illuminate\Auth\Access\AuthorizationException
@@ -82,7 +82,7 @@ class UsersController extends Controller
     /**
      * Validate and store the new user data, or return an error.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param SaveUserRequest $request
      * @return \Illuminate\Http\RedirectResponse
@@ -169,7 +169,7 @@ class UsersController extends Controller
     /**
      * Returns a view that displays the edit user form
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param $permissions
      * @return View
@@ -197,7 +197,7 @@ class UsersController extends Controller
     /**
      * Validate and save edited user data from edit form.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param SaveUserRequest $request
      * @param  int $id
@@ -214,7 +214,7 @@ class UsersController extends Controller
 
         // This is a janky hack to prevent people from changing admin demo user data on the public demo.
         // The $ids 1 and 2 are special since they are seeded as superadmins in the demo seeder.
-        // Thanks, jerks. You are why we can't have nice things. - snipe
+        // Thanks, jerks. You are why we can't have nice things.
 
         if ((($id == 1) || ($id == 2)) && (config('app.lock_passwords'))) {
             return redirect()->route('users.index')->with('error', 'Permission denied. You cannot update user information for superadmins on the demo.');
@@ -307,7 +307,7 @@ class UsersController extends Controller
     /**
      * Delete a user
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param  int $id
      * @return \Illuminate\Http\RedirectResponse
@@ -369,7 +369,7 @@ class UsersController extends Controller
     /**
      * Restore a deleted user
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param  int $id
      * @return \Illuminate\Http\RedirectResponse
@@ -394,7 +394,7 @@ class UsersController extends Controller
     /**
      * Return a view with user detail
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param  int $userId
      * @return \Illuminate\Contracts\View\View
@@ -419,7 +419,7 @@ class UsersController extends Controller
     /**
      * Unsuspend a user.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param  int $id
      * @return Redirect
@@ -459,7 +459,7 @@ class UsersController extends Controller
      * Return a view containing a pre-populated new user form,
      * populated with some fields from an existing user.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param  int $id
      * @return \Illuminate\Contracts\View\View
@@ -507,7 +507,7 @@ class UsersController extends Controller
     /**
      * Exports users to CSV
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.5]
      * @return StreamedResponse
      * @throws \Illuminate\Auth\Access\AuthorizationException

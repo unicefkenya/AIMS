@@ -17,7 +17,7 @@ class LdapSync extends Command
      *
      * @var string
      */
-    protected $signature = 'snipeit:ldap-sync {--location=} {--location_id=} {--base_dn=} {--summary} {--json_summary}';
+    protected $signature = 'bewsys:ldap-sync {--location=} {--location_id=} {--base_dn=} {--summary} {--json_summary}';
 
     /**
      * The console command description.
@@ -167,7 +167,7 @@ class LdapSync extends Command
             }
         }
 
-        /* Create user account entries in Snipe-IT */
+        /* Create user account entries in Bewsys Dev */
         $tmp_pass = substr(str_shuffle('0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ'), 0, 20);
         $pass = bcrypt($tmp_pass);
 

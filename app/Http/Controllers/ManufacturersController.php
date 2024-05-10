@@ -11,7 +11,7 @@ use Redirect;
 
 /**
  * This controller handles all actions related to Manufacturers for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @version    v1.0
  */
@@ -21,7 +21,7 @@ class ManufacturersController extends Controller
      * Returns a view that invokes the ajax tables which actually contains
      * the content for the manufacturers listing, which is generated in getDatatable.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see Api\ManufacturersController::index() method that generates the JSON response
      * @since [v1.0]
      * @return \Illuminate\Contracts\View\View
@@ -37,7 +37,7 @@ class ManufacturersController extends Controller
     /**
      * Returns a view that displays a form to create a new manufacturer.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ManufacturersController::store()
      * @since [v1.0]
      * @return \Illuminate\Contracts\View\View
@@ -53,7 +53,7 @@ class ManufacturersController extends Controller
     /**
      * Validates and stores the data for a new manufacturer.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ManufacturersController::create()
      * @since [v1.0]
      * @param ImageUploadRequest $request
@@ -82,7 +82,7 @@ class ManufacturersController extends Controller
     /**
      * Returns a view that displays a form to edit a manufacturer.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ManufacturersController::update()
      * @param int $manufacturerId
      * @since [v1.0]
@@ -106,7 +106,7 @@ class ManufacturersController extends Controller
     /**
      * Validates and stores the updated manufacturer data.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ManufacturersController::getEdit()
      * @param Request $request
      * @param int $manufacturerId
@@ -147,7 +147,7 @@ class ManufacturersController extends Controller
     /**
      * Deletes a manufacturer.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $manufacturerId
      * @since [v1.0]
      * @return \Illuminate\Http\RedirectResponse
@@ -187,7 +187,7 @@ class ManufacturersController extends Controller
      * the content for the manufacturers detail listing, which is generated via API.
      * This data contains a listing of all assets that belong to that manufacturer.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $manufacturerId
      * @since [v1.0]
      * @return \Illuminate\Contracts\View\View
@@ -210,7 +210,7 @@ class ManufacturersController extends Controller
     /**
      * Restore a given Manufacturer (mark as un-deleted)
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.1.15]
      * @param int $manufacturers_id
      * @return Redirect

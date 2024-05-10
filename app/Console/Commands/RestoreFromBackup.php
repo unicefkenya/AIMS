@@ -12,7 +12,7 @@ class RestoreFromBackup extends Command
      *
      * @var string
      */
-    protected $signature = 'snipeit:restore 
+    protected $signature = 'bewsys:restore 
                                             {--force : Skip the danger prompt; assuming you enter "y"} 
                                             {filename : The zip file to be migrated}
                                             {--no-progress : Don\'t show a progress bar}';
@@ -22,7 +22,7 @@ class RestoreFromBackup extends Command
      *
      * @var string
      */
-    protected $description = 'Restore from a previously created Snipe-IT backup file';
+    protected $description = 'Restore from a previously created bewsys backup file';
 
     /**
      * Create a new command instance.
@@ -204,7 +204,7 @@ class RestoreFromBackup extends Command
 
         if (strpos($sqlfiles[0], 'db-dumps') === false) {
             //return $this->error("SQL backup file is missing 'db-dumps' component of full pathname: ".$sqlfiles[0]);
-            //older Snipe-IT installs don't have the db-dumps subdirectory component
+            //older bewsys installs don't have the db-dumps subdirectory component
         }
 
         //how to invoke the restore?

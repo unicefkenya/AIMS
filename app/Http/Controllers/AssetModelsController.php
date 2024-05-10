@@ -15,10 +15,10 @@ use Symfony\Component\HttpFoundation\JsonResponse;
 
 /**
  * This class controls all actions related to asset models for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @version    v1.0
- * @author [A. Gianotto] [<snipe@snipe.net>]
+ * @author 
  */
 class AssetModelsController extends Controller
 {
@@ -26,7 +26,7 @@ class AssetModelsController extends Controller
      * Returns a view that invokes the ajax tables which actually contains
      * the content for the accessories listing, which is generated in getDatatable.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @return View
      * @throws \Illuminate\Auth\Access\AuthorizationException
@@ -41,7 +41,7 @@ class AssetModelsController extends Controller
     /**
      * Returns a view containing the asset model creation form.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @return View
      * @throws \Illuminate\Auth\Access\AuthorizationException
@@ -58,7 +58,7 @@ class AssetModelsController extends Controller
     /**
      * Validate and process the new Asset Model data.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param ImageUploadRequest $request
      * @return Redirect
@@ -103,7 +103,7 @@ class AssetModelsController extends Controller
     /**
      * Returns a view containing the asset model edit form.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param int $modelId
      * @return View
@@ -128,7 +128,7 @@ class AssetModelsController extends Controller
      * Validates and processes form data from the edit
      * Asset Model form based on the model ID passed.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param ImageUploadRequest $request
      * @param int $modelId
@@ -178,7 +178,7 @@ class AssetModelsController extends Controller
      * Validate and delete the given Asset Model. An Asset Model
      * cannot be deleted if there are associated assets.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param int $modelId
      * @return Redirect
@@ -215,7 +215,7 @@ class AssetModelsController extends Controller
     /**
      * Restore a given Asset Model (mark as un-deleted)
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param int $modelId
      * @return Redirect
@@ -240,7 +240,7 @@ class AssetModelsController extends Controller
     /**
      * Get the model information to present to the model view page
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param int $modelId
      * @return View
@@ -261,7 +261,7 @@ class AssetModelsController extends Controller
     /**
      * Get the clone page to clone a model
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param int $modelId
      * @return View
@@ -303,7 +303,7 @@ class AssetModelsController extends Controller
     /**
      * Returns a view that allows the user to bulk edit model attrbutes
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.7]
      * @return \Illuminate\Contracts\View\View
      */
@@ -347,7 +347,7 @@ class AssetModelsController extends Controller
     /**
      * Returns a view that allows the user to bulk edit model attrbutes
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.7]
      * @return \Illuminate\Contracts\View\View
      */
@@ -386,7 +386,7 @@ class AssetModelsController extends Controller
      * Validate and delete the given Asset Models. An Asset Model
      * cannot be deleted if there are associated assets.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param int $modelId
      * @return Redirect

@@ -19,7 +19,7 @@ class AssetCheckoutController extends Controller
      * Returns a view that presents a form to check an asset out to a
      * user.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v1.0]
      * @return View
@@ -44,7 +44,7 @@ class AssetCheckoutController extends Controller
     /**
      * Validate and process the form data to check out an asset to a user.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param AssetCheckoutRequest $request
      * @param int $assetId
      * @return Redirect

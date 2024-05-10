@@ -22,7 +22,7 @@ class LoginTest extends DuskTestCase
 
         $this->browse(function ($browser) {
             $browser->visitRoute('login')
-                    ->type('username', 'snipe')
+                    ->type('username', 'bewsys')
                     ->type('password', 'password')
                     ->press(trans('auth/general.login'))
                     ->assertPathIs('/');

@@ -141,7 +141,7 @@ class AssetMaintenance extends Model implements ICompanyableChild
      * Get the admin who created the maintenance
      *
      * @return mixed
-     * @author  A. Gianotto <snipe@snipe.net>
+     * @author 
      * @version v3.0
      */
     public function admin()

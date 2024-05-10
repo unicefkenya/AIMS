@@ -29,7 +29,7 @@ class AcceptanceTester extends \Codeception\Actor
 
         // logging in
         $I->amOnPage('/login');
-        $I->fillField('username', 'snipe');
+        $I->fillField('username', 'bewsys');
         $I->fillField('password', 'password');
         $I->click('Login');
         //$I->saveSessionSnapshot('login');

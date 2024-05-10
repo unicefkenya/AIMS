@@ -20,7 +20,7 @@ class DepartmentsController extends Controller
      * Returns a view that invokes the ajax tables which actually contains
      * the content for the assets listing, which is generated in getDatatable.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see AssetController::getDatatable() method that generates the JSON response
      * @since [v4.0]
      * @param Request $request
@@ -41,7 +41,7 @@ class DepartmentsController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param ImageUploadRequest $request
      * @return \Illuminate\Http\Response
@@ -68,7 +68,7 @@ class DepartmentsController extends Controller
      * Returns a view that invokes the ajax tables which actually contains
      * the content for the department detail page.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $id
      * @since [v4.0]
      * @return \Illuminate\Contracts\View\View
@@ -90,7 +90,7 @@ class DepartmentsController extends Controller
     /**
      * Returns a form view used to create a new department.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see DepartmentsController::postCreate() method that validates and stores the data
      * @since [v4.0]
      * @return \Illuminate\Contracts\View\View
@@ -106,7 +106,7 @@ class DepartmentsController extends Controller
     /**
      * Validates and deletes selected department.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $locationId
      * @since [v4.0]
      * @return \Illuminate\Http\RedirectResponse
@@ -139,7 +139,7 @@ class DepartmentsController extends Controller
     /**
      * Makes a form view to edit Department information.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see LocationsController::postCreate() method that validates and stores
      * @param int $departmentId
      * @since [v1.0]

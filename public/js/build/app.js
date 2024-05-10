@@ -1672,7 +1672,7 @@ Vue.http.interceptors.push(function (request, next) {
 /**
  * Module containing core application logic.
  * @param  {jQuery} $        Insulated jQuery object
- * @param  {JSON} settings Insulated `window.snipeit.settings` object.
+ * @param  {JSON} settings Insulated `window.bewsys.settings` object.
  * @return {IIFE}          Immediately invoked. Returns self.
  */
 lineOptions = {
@@ -2026,7 +2026,7 @@ $(document).ready(function () {
        * We are specifically chosing empty alt-text below, because this 
        * image conveys no additional information, relative to the text
        * that will *always* be there in any select2 list that is in use
-       * in Snipe-IT. If that changes, we would probably want to change
+       * in Bewsys. If that changes, we would probably want to change
        * some signatures of some functions, but right now, we don't want
        * screen readers to say "HP SuperJet 5000, .... picture of HP 
        * SuperJet 5000..." and so on, for every single row in a list of
@@ -2113,7 +2113,7 @@ $(document).ready(function () {
   var taburl = document.location.toString(); // Allow full page URL to activate a tab's ID
   // ------------------------------------------------
   // This allows linking to a tab on page load via the address bar.
-  // So a URL such as, http://snipe-it.local/hardware/2/#my_tab will
+  // So a URL such as,  will
   // cause the tab on that page with an ID of “my_tab” to be active.
 
   if (taburl.match('#')) {
@@ -2224,9 +2224,9 @@ function htmlEntities(str) {
 
 /* 
  * 
- * Snipe-IT Universal Modal support
+ * Bewsys Universal Modal support
  * 
- * Enables modal dialogs to create sub-resources throughout Snipe-IT
+ * Enables modal dialogs to create sub-resources throughout Bewsys
  * 
  */
 
@@ -2384,7 +2384,7 @@ function formatDatalistSafe(datalist) {
      * We are specifically chosing empty alt-text below, because this 
      * image conveys no additional information, relative to the text
      * that will *always* be there in any select2 list that is in use
-     * in Snipe-IT. If that changes, we would probably want to change
+     * in Bewsys. If that changes, we would probably want to change
      * some signatures of some functions, but right now, we don't want
      * screen readers to say "HP SuperJet 5000, .... picture of HP 
      * SuperJet 5000..." and so on, for every single row in a list of

@@ -12,7 +12,7 @@ class SyncAssetCounters extends Command
      *
      * @var string
      */
-    protected $signature = 'snipeit:counter-sync';
+    protected $signature = 'bewsys:counter-sync';
 
     /**
      * The console command description.

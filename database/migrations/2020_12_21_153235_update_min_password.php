@@ -8,7 +8,7 @@ class UpdateMinPassword extends Migration
 {
     /**
      * This migration solves the issue of settings with a minimum password requirement
-     * that is below the actual Snipe-IT minimum requirement in v5 (min 5 became min 8).
+     * that is below the actual bewsys minimum requirement in v5 (min 5 became min 8).
      *
      * Even though we documented the change in all of the v5 releases, we were still
      * running into issues where admins did not update their password minimum length

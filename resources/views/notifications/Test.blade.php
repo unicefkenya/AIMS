@@ -5,7 +5,7 @@
 {{ trans('mail.test_mail_text') }}
 
 Thanks,
-Snipe-IT
+Bewsys
 @if ($setupCompleted)
 @endcomponent
 @endif

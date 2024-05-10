@@ -11,7 +11,7 @@ use Redirect;
 
 /**
  * This controller handles all actions related to Custom Asset Fields for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @todo Improve documentation here.
  * @todo Check for raw DB queries and try to convert them to query builder statements
@@ -43,7 +43,7 @@ class CustomFieldsController extends Controller
      * We already show those details on the listing page.
      *
      * @see CustomFieldsController::storeField()
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v5.1.5]
      * @return Redirect
      * @throws \Illuminate\Auth\Access\AuthorizationException
@@ -116,7 +116,7 @@ class CustomFieldsController extends Controller
     /**
      * Detach a custom field from a fieldset.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return Redirect
      * @throws \Illuminate\Auth\Access\AuthorizationException
@@ -174,7 +174,7 @@ class CustomFieldsController extends Controller
     /**
      * Return a view to edit a custom field
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param  int $id
      * @since [v4.0]
      * @return \Illuminate\Support\Facades\View
@@ -209,7 +209,7 @@ class CustomFieldsController extends Controller
      *
      * @todo Allow encrypting/decrypting if encryption status changes
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param  int $id
      * @since [v4.0]
      * @return Redirect

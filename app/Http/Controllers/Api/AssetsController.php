@@ -35,17 +35,17 @@ use Route;
 
 /**
  * This class controls all actions related to assets for
- * the Snipe-IT Asset Management application.
+ * the bewsys Asset Management application.
  *
  * @version    v1.0
- * @author [A. Gianotto] [<snipe@snipe.net>]
+ * @author 
  */
 class AssetsController extends Controller
 {
     /**
      * Returns JSON listing of all assets
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v4.0]
      * @return JsonResponse
@@ -64,7 +64,7 @@ class AssetsController extends Controller
          * gracefully to just use the AssetTransformer by default, which shouldn't break anything. 
          * 
          * It was either this mess, or repeating ALL of the searching and sorting and filtering code, 
-         * which would have been far worse of a mess. *sad face*  - snipe (Sept 1, 2021)
+         * which would have been far worse of a mess. *sad face*  -  (Sept 1, 2021)
          */
         if (Route::currentRouteName()=='api.depreciation-report.index') {
             $filter_non_deprecable_assets = true;
@@ -357,7 +357,7 @@ class AssetsController extends Controller
     /**
      * Returns JSON with information about an asset (by tag) for detail view.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param string $tag
      * @since [v4.2.1]
      * @return JsonResponse
@@ -376,7 +376,7 @@ class AssetsController extends Controller
     /**
      * Returns JSON with information about an asset (by serial) for detail view.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param string $serial
      * @since [v4.2.1]
      * @return JsonResponse
@@ -407,7 +407,7 @@ class AssetsController extends Controller
     /**
      * Returns JSON with information about an asset for detail view.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v4.0]
      * @return JsonResponse
@@ -438,7 +438,7 @@ class AssetsController extends Controller
     /**
      * Gets a paginated collection for the select2 menus
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0.16]
      * @see \App\Http\Transformers\SelectlistTransformer
      *
@@ -494,7 +494,7 @@ class AssetsController extends Controller
     /**
      * Accepts a POST request to create a new asset
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param \App\Http\Requests\ImageUploadRequest $request
      * @since [v4.0]
      * @return JsonResponse
@@ -599,7 +599,7 @@ class AssetsController extends Controller
     /**
      * Accepts a POST request to update an asset
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param \App\Http\Requests\ImageUploadRequest $request
      * @since [v4.0]
      * @return JsonResponse
@@ -680,7 +680,7 @@ class AssetsController extends Controller
     /**
      * Delete a given asset (mark as deleted).
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v4.0]
      * @return JsonResponse
@@ -709,7 +709,7 @@ class AssetsController extends Controller
     /**
      * Restore a soft-deleted asset.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v5.1.18]
      * @return JsonResponse
@@ -751,7 +751,7 @@ class AssetsController extends Controller
     /**
      * Checkout an asset
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v4.0]
      * @return JsonResponse
@@ -835,7 +835,7 @@ class AssetsController extends Controller
     /**
      * Checkin an asset
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v4.0]
      * @return JsonResponse
@@ -911,7 +911,7 @@ class AssetsController extends Controller
     /**
      * Mark an asset as audited
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $id
      * @since [v4.0]
      * @return JsonResponse
@@ -973,7 +973,7 @@ class AssetsController extends Controller
     /**
      * Returns JSON listing of all requestable assets
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return JsonResponse
      */

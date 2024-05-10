@@ -65,7 +65,7 @@ class CheckinAssetNotification extends Notification
         $admin = $this->admin;
         $item = $this->item;
         $note = $this->note;
-        $botname = ($this->settings->slack_botname != '') ? $this->settings->slack_botname : 'Snipe-Bot';
+        $botname = ($this->settings->slack_botname != '') ? $this->settings->slack_botname : 'Bewsys-Bot';
 
         $fields = [
             trans('general.administrator') => '<'.$admin->present()->viewUrl().'|'.$admin->present()->fullName().'>',

@@ -7,6 +7,6 @@ return array(
     'api_base_url' => 'Your API base url is located at:',
     'api_base_url_endpoint' => '/&lt;endpoint&gt;',
     'api_token_expiration_time' => 'API tokens are set to expire in:',
-    'api_reference' => 'Please check the <a href="https://snipe-it.readme.io/reference" target="_blank">API reference</a> to
+    'api_reference' => 'Please check the <a href="" target="_blank">API reference</a> to
                     find specific API endpoints and additional API documentation.',
 );

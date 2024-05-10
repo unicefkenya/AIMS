@@ -12,7 +12,7 @@ class ProfileController extends Controller
     /**
      * Display a listing of requested assets.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.3.0]
      *
      * @return array

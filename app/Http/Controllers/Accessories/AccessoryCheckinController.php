@@ -15,7 +15,7 @@ class AccessoryCheckinController extends Controller
     /**
      * Check the accessory back into inventory
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param Request $request
      * @param int $accessoryUserId
      * @param string $backto
@@ -41,7 +41,7 @@ class AccessoryCheckinController extends Controller
      * Check in the item so that it can be checked out again to someone else
      *
      * @uses Accessory::checkin_email() to determine if an email can and should be sent
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param null $accessoryUserId
      * @param string $backto
      * @return Redirect

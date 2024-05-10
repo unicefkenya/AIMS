@@ -16,7 +16,7 @@ class AssetFilesController extends Controller
     /**
      * Upload a file to the server.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param AssetFileRequest $request
      * @param int $assetId
      * @return Redirect
@@ -72,7 +72,7 @@ class AssetFilesController extends Controller
     /**
      * Check for permissions and display the file.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param  int $assetId
      * @param  int $fileId
      * @since [v1.0]
@@ -123,7 +123,7 @@ class AssetFilesController extends Controller
     /**
      * Delete the associated file
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param  int $assetId
      * @param  int $fileId
      * @since [v1.0]

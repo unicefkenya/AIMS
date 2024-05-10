@@ -55,7 +55,7 @@ class Statuslabel extends SnipeModel
     /**
      * Establishes the status label -> assets relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -67,7 +67,7 @@ class Statuslabel extends SnipeModel
     /**
      * Gets the status label type
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return string
      */
@@ -135,7 +135,7 @@ class Statuslabel extends SnipeModel
     /**
      * Helper function to determine type attributes
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return string
      */

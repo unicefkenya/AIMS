@@ -22,7 +22,7 @@ use Redirect;
  * This controller handles authentication for the user, including local
  * database users and LDAP users.
  *
- * @author [A. Gianotto] [<snipe@snipe.net>]
+ * @author 
  * @version    v1.0
  */
 class LoginController extends Controller
@@ -216,7 +216,7 @@ class LoginController extends Controller
 
             $strip_prefixes = [
                 // IIS/AD
-                // https://github.com/snipe/snipe-it/pull/5862
+                //
                 '\\',
 
                 // Google Cloud IAP
@@ -360,7 +360,7 @@ class LoginController extends Controller
             $barcode->getBarcodeObj(
                 'QRCODE',
                 sprintf(
-                    'otpauth://totp/%s:%s?secret=%s&issuer=Snipe-IT&period=30',
+                    'otpauth://totp/%s:%s?secret=%s&issuer=Bewsys&period=30',
                     urlencode($settings->site_name),
                     urlencode($user->username),
                     urlencode($secret)

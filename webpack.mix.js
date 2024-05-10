@@ -48,17 +48,6 @@ mix
   .copy("./resources/assets/css/signature-pad.css", "./public/css/dist")
   .minify("./public/css/dist/signature-pad.css");
 
-// Combine main SnipeIT JS files
-mix
-  .js(
-    [
-      "./resources/assets/js/vue.js", // require()s vue, and require()s bootstrap.js
-      "./resources/assets/js/snipeit.js", //this is the actual Snipe-IT JS
-      "./resources/assets/js/snipeit_modals.js",
-    ],
-    "./public/js/build/app.js" //because of compiling - this does not work very well :(
-  )
-  .vue();
 
 // Convert the skins to CSS
 mix.less(

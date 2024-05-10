@@ -38,7 +38,7 @@ class LDAPImportController extends Controller
      * LDAP form processing.
      *
      * @author Aladin Alaily
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @author Wes Hulette <jwhulette@gmail.com>
      *
      * @since 5.0.0
@@ -50,7 +50,7 @@ class LDAPImportController extends Controller
         $this->authorize('update', User::class);
         // Call Artisan LDAP import command.
         $location_id = $request->input('location_id');
-        Artisan::call('snipeit:ldap-sync', ['--location_id' => $location_id, '--json_summary' => true]);
+        Artisan::call('bewsys:ldap-sync', ['--location_id' => $location_id, '--json_summary' => true]);
 
         // Collect and parse JSON summary.
         $ldap_results_json = Artisan::output();

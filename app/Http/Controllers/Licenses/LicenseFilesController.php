@@ -18,7 +18,7 @@ class LicenseFilesController extends Controller
      * Validates and stores files associated with a license.
      *
      * @todo Switch to using the AssetFileRequest form request validator.
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param AssetFileRequest $request
      * @param int $licenseId
@@ -82,7 +82,7 @@ class LicenseFilesController extends Controller
     /**
      * Deletes the selected license file.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param int $licenseId
      * @param int $fileId
@@ -120,7 +120,7 @@ class LicenseFilesController extends Controller
     /**
      * Allows the selected file to be viewed.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.4]
      * @param int $licenseId
      * @param int $fileId

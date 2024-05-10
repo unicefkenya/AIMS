@@ -1,6 +1,6 @@
 {
-  "name": "snipe/snipe-it",
-  "description": "Open source asset management system built on Laravel.",
+  "name": "laravel/laravel",
+  "description": "Asset management system built on Laravel.",
   "keywords": [
     "assets",
     "asset-management",
@@ -8,14 +8,8 @@
     "inventory",
     "laravel"
   ],
-  "license": "AGPL-3.0-or-later",
+  "license": "MIT",
   "type": "project",
-  "repositories": [
-      {
-          "type": "vcs",
-          "url": "https://github.com/grokability/laravel-scim-server"
-      }
-  ],
   "require": {
     "php": ">=7.4 <8.3",
     "ext-curl": "*",

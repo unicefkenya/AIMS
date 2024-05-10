@@ -1,8 +1,8 @@
 /* 
  * 
- * Snipe-IT Universal Modal support
+ * Bewsys Universal Modal support
  * 
- * Enables modal dialogs to create sub-resources throughout Snipe-IT
+ * Enables modal dialogs to create sub-resources throughout Bewsys
  * 
  */
 
@@ -175,7 +175,7 @@ function formatDatalistSafe(datalist) {
          * We are specifically chosing empty alt-text below, because this 
          * image conveys no additional information, relative to the text
          * that will *always* be there in any select2 list that is in use
-         * in Snipe-IT. If that changes, we would probably want to change
+         * in Bewsys. If that changes, we would probably want to change
          * some signatures of some functions, but right now, we don't want
          * screen readers to say "HP SuperJet 5000, .... picture of HP 
          * SuperJet 5000..." and so on, for every single row in a list of

@@ -62,7 +62,7 @@ class CheckinLicenseSeatNotification extends Notification
         $admin = $this->admin;
         $item = $this->item;
         $note = $this->note;
-        $botname = ($this->settings->slack_botname) ? $this->settings->slack_botname : 'Snipe-Bot';
+        $botname = ($this->settings->slack_botname) ? $this->settings->slack_botname : 'Bewsys-Bot';
 
         if ($admin) {
             $fields = [

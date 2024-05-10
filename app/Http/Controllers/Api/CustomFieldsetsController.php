@@ -13,7 +13,7 @@ use View;
 
 /**
  * This controller handles all actions related to Custom Asset Fieldsets for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @todo Improve documentation here.
  * @todo Check for raw DB queries and try to convert them to query builder statements
@@ -25,7 +25,7 @@ class CustomFieldsetsController extends Controller
 {
     /**
      * Shows the given fieldset and its fields
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @author [Josh Gibson]
      * @param int $id
      * @since [v1.8]
@@ -41,7 +41,7 @@ class CustomFieldsetsController extends Controller
 
     /**
      * Shows the given fieldset and its fields
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @author [Josh Gibson]
      * @param int $id
      * @since [v1.8]
@@ -60,7 +60,7 @@ class CustomFieldsetsController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -82,7 +82,7 @@ class CustomFieldsetsController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -103,7 +103,7 @@ class CustomFieldsetsController extends Controller
     /**
      * Delete a custom fieldset.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return Redirect
      */

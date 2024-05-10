@@ -49,7 +49,7 @@ class Actionlog extends SnipeModel
     /**
      * Override from Builder to automatically add the company
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -74,7 +74,7 @@ class Actionlog extends SnipeModel
     /**
      * Establishes the actionlog -> item relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -86,7 +86,7 @@ class Actionlog extends SnipeModel
     /**
      * Establishes the actionlog -> company relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -98,7 +98,7 @@ class Actionlog extends SnipeModel
     /**
      * Establishes the actionlog -> item type relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -114,7 +114,7 @@ class Actionlog extends SnipeModel
     /**
      * Establishes the actionlog -> target type relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -131,7 +131,7 @@ class Actionlog extends SnipeModel
     /**
      * Establishes the actionlog -> uploads relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -145,7 +145,7 @@ class Actionlog extends SnipeModel
     /**
      * Establishes the actionlog -> userlog relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -157,7 +157,7 @@ class Actionlog extends SnipeModel
     /**
      * Establishes the actionlog -> user relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -170,7 +170,7 @@ class Actionlog extends SnipeModel
     /**
      * Establishes the actionlog -> target relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -182,7 +182,7 @@ class Actionlog extends SnipeModel
     /**
      * Establishes the actionlog -> location relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -195,7 +195,7 @@ class Actionlog extends SnipeModel
     /**
      * Check if the file exists, and if it does, force a download
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return string | false
      */
@@ -213,7 +213,7 @@ class Actionlog extends SnipeModel
     /**
      * Saves the log record with the action type
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return bool
      */
@@ -231,7 +231,7 @@ class Actionlog extends SnipeModel
     /**
      * Calculate the number of days until the next audit
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return int
      */
@@ -254,7 +254,7 @@ class Actionlog extends SnipeModel
     /**
      * Calculate the date of the next audit
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \Datetime
      */

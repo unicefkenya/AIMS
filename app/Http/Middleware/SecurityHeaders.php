@@ -28,7 +28,7 @@ class SecurityHeaders
         $response->headers->set('X-Content-Type-Options', 'nosniff');
         $response->headers->set('X-XSS-Protection', '1; mode=block');
 
-        // Ugh. Feature-Policy is dumb and clumsy and mostly irrelevant for Snipe-IT,
+        // Ugh. Feature-Policy is dumb and clumsy and mostly irrelevant for Bewsys,
         // since we don't provide any way to IFRAME anything in in the first place.
         // There is currently no easy way to default ALL THE THINGS to 'none', but
         // security audits will still ding you if you don't have this header, even
@@ -61,7 +61,7 @@ class SecurityHeaders
 
         // The .env var ALLOW_IFRAMING  defaults to false (which disallows IFRAMING)
         // if not present, but some unique cases require this to be enabled.
-        // For example, some IT depts have IFRAMED Snipe-IT into their IT portal
+        // For example, some IT depts have IFRAMED Bewsys into their IT portal
         // for convenience so while it is normally disallowed, there is
         // an override that exists.
 
@@ -70,8 +70,8 @@ class SecurityHeaders
         }
 
         // This defaults to false to maintain backwards compatibility for
-        // people who are not running Snipe-IT over TLS (shame, shame, shame!)
-        // Seriously though, please run Snipe-IT over TLS. Let's Encrypt is free.
+        // people who are not running Bewsys over TLS (shame, shame, shame!)
+        // Seriously though, please run Bewsys over TLS. Let's Encrypt is free.
         // https://letsencrypt.org
 
         if (config('app.enable_hsts') === true) {

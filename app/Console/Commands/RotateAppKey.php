@@ -16,7 +16,7 @@ class RotateAppKey extends Command
      *
      * @var string
      */
-    protected $signature = 'snipeit:rotate-key';
+    protected $signature = 'bewsys:rotate-key';
 
     /**
      * The console command description.

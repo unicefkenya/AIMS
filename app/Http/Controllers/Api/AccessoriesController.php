@@ -20,7 +20,7 @@ class AccessoriesController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \Illuminate\Http\Response
      */
@@ -116,7 +116,7 @@ class AccessoriesController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \App\Http\Requests\ImageUploadRequest $request
      * @return \Illuminate\Http\Response
@@ -139,7 +139,7 @@ class AccessoriesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -156,7 +156,7 @@ class AccessoriesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -173,7 +173,7 @@ class AccessoriesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -218,7 +218,7 @@ class AccessoriesController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \App\Http\Requests\ImageUploadRequest $request
      * @param  int  $id
@@ -241,7 +241,7 @@ class AccessoriesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -268,7 +268,7 @@ class AccessoriesController extends Controller
      * If Slack is enabled and/or asset acceptance is enabled, it will also
      * trigger a Slack message and send an email.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param  int  $accessoryId
      * @return Redirect
      */
@@ -312,7 +312,7 @@ class AccessoriesController extends Controller
      * Check in the item so that it can be checked out again to someone else
      *
      * @uses Accessory::checkin_email() to determine if an email can and should be sent
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param Request $request
      * @param int $accessoryUserId
      * @param string $backto

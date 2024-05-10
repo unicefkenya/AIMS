@@ -19,7 +19,7 @@ class SendUpcomingAuditReport extends Command
      *
      * @var string
      */
-    protected $signature = 'snipeit:upcoming-audits';
+    protected $signature = 'bewsys:upcoming-audits';
 
     /**
      * The console command description.

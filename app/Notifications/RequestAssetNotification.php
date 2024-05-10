@@ -73,7 +73,7 @@ class RequestAssetNotification extends Notification
         $qty = $this->item_quantity;
         $item = $this->item;
         $note = $this->note;
-        $botname = ($this->settings->slack_botname) ? $this->settings->slack_botname : 'Snipe-Bot';
+        $botname = ($this->settings->slack_botname) ? $this->settings->slack_botname : 'Bewsys-Bot';
 
         $fields = [
             'QTY' => $qty,

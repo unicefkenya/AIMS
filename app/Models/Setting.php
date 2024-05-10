@@ -24,14 +24,14 @@ class Setting extends Model
      *
      * @var string
      */
-    const APP_SETTINGS_KEY = 'snipeit_app_settings';
+    const APP_SETTINGS_KEY = 'bewsys_app_settings';
 
     /**
      * The setup check cache key name.
      *
      * @var string
      */
-    const SETUP_CHECK_KEY = 'snipeit_setup_check';
+    const SETUP_CHECK_KEY = 'bewsys_setup_check';
 
     /**
      * Whether the model should inject it's identifier to the unique
@@ -192,7 +192,7 @@ class Setting extends Model
      *
      * @return string escaped CSS
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      */
     public function show_custom_css(): string
     {

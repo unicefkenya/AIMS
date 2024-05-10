@@ -18,7 +18,7 @@ class DepartmentsController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @author [Godfrey Martinez] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \Illuminate\Http\Response
      */
@@ -73,7 +73,7 @@ class DepartmentsController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \App\Http\Requests\ImageUploadRequest  $request
      * @return \Illuminate\Http\Response
@@ -98,7 +98,7 @@ class DepartmentsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -114,7 +114,7 @@ class DepartmentsController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v5.0]
      * @param  \App\Http\Requests\ImageUploadRequest  $request
      * @param  int  $id
@@ -138,7 +138,7 @@ class DepartmentsController extends Controller
     /**
      * Validates and deletes selected department.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $locationId
      * @since [v4.0]
      * @return \Illuminate\Http\RedirectResponse
@@ -161,7 +161,7 @@ class DepartmentsController extends Controller
     /**
      * Gets a paginated collection for the select2 menus
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0.16]
      * @see \App\Http\Transformers\SelectlistTransformer
      */

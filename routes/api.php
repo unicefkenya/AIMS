@@ -23,7 +23,7 @@ Route::group(['prefix' => 'v1', 'middleware' => ['api', 'throttle:api']], functi
         return response()->json(
             [
                 'status' => 'error',
-                'message' => '404 endpoint not found. This is the base URL for the API and does not return anything itself. Please check the API reference at https://snipe-it.readme.io/reference to find a valid API endpoint.',
+                'message' => '404 endpoint not found. This is the base URL for the API and does not return anything itself. Please check the API reference at to find a valid API endpoint.',
                 'payload' => null,
             ], 404);
     });
@@ -1111,7 +1111,7 @@ Route::group(['prefix' => 'v1', 'middleware' => ['api', 'throttle:api']], functi
             return response()->json(
                 [
                     'status' => 'error',
-                    'message' => '404 endpoint not found. Please check the API reference at https://snipe-it.readme.io/reference to find a valid API endpoint.',
+                    'message' => '404 endpoint not found. Please check the API reference at  to find a valid API endpoint.',
                     'payload' => null,
                 ], 404);
         }); // end fallback routes

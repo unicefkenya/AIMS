@@ -20,7 +20,7 @@ class BulkUsersController extends Controller
     /**
      * Returns a view that confirms the user's a bulk delete will be applied to.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.7]
      * @param Request $request
      * @return \Illuminate\Contracts\View\View
@@ -62,7 +62,7 @@ class BulkUsersController extends Controller
     /**
      * Save bulk-edited users
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse
@@ -149,7 +149,7 @@ class BulkUsersController extends Controller
     /**
      * Soft-delete bulk users
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param Request $request
      * @return \Illuminate\Http\RedirectResponse

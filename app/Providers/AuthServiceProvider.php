@@ -48,7 +48,7 @@ class AuthServiceProvider extends ServiceProvider
     /**
      * The policy mappings for the application.
      *
-     * See SnipePermissionsPolicy for additional information.
+     * See BewsysPermissionsPolicy for additional information.
      *
      * @var array
      */

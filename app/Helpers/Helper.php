@@ -18,7 +18,7 @@ class Helper
     /**
      * Simple helper to invoke the markdown parser
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return string
      */
@@ -36,7 +36,7 @@ class Helper
      * so the value might be a string, or an integer.
      * If it's a number, format it as a string.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return string
      */
@@ -57,7 +57,7 @@ class Helper
     /**
      * Static colors for pie charts.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.3]
      * @return array
      */
@@ -369,7 +369,7 @@ class Helper
      * Static background (highlight) colors for pie charts
      * This is inelegant, and could be refactored later.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.2]
      * @return array
      */
@@ -395,7 +395,7 @@ class Helper
     /**
      * Format currency using comma for thousands until local info is property used.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.7]
      * @return string
      */
@@ -405,7 +405,7 @@ class Helper
          * 
          * WARNING: This does conversions based on *locale* - a Unix-ey-like thing.
          * 
-         * Everything else in the system tends to convert based on the Snipe-IT settings
+         * Everything else in the system tends to convert based on the bewsys settings
          * 
          * So it's very likely this is *not* what you want - instead look for the new
          * 
@@ -452,7 +452,7 @@ class Helper
     /**
      * Get the list of status labels in an array to make a dropdown menu
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.5]
      * @return array
      */
@@ -471,7 +471,7 @@ class Helper
      * and we should probably add to the API controllers to make sure that
      * the status_id submitted is actually really deployable.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v5.1.0]
      * @return array
      */
@@ -488,7 +488,7 @@ class Helper
     /**
      * Get the list of status label types in an array to make a dropdown menu
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.5]
      * @return array
      */
@@ -507,7 +507,7 @@ class Helper
     /**
      * Get the list of depreciations in an array to make a dropdown menu
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.5]
      * @return array
      */
@@ -522,7 +522,7 @@ class Helper
     /**
      * Get the list of category types in an array to make a dropdown menu
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.5]
      * @return array
      */
@@ -543,7 +543,7 @@ class Helper
     /**
      * Get the list of custom fields in an array to make a dropdown menu
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.5]
      * @return array
      */
@@ -557,7 +557,7 @@ class Helper
     /**
      * Get the list of custom field formats in an array to make a dropdown menu
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.4]
      * @return array
      */
@@ -572,7 +572,7 @@ class Helper
     /**
      * Get the list of barcode dimensions
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.3]
      * @return array
      */
@@ -595,7 +595,7 @@ class Helper
     /**
      * Generates a random string
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return array
      */
@@ -615,7 +615,7 @@ class Helper
      * This nasty little method gets the low inventory info for the
      * alert dropdown
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return array
      */
@@ -692,7 +692,7 @@ class Helper
     /**
      * Check if the file is an image, so we can show a preview
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @param File $file
      * @return string | Boolean
@@ -721,7 +721,7 @@ class Helper
      * corresponding permission name and a true or false boolean to determine
      * if that group/user has been granted that permission.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net]
+     * @author 
      * @param array $permissions
      * @param array $selected_arr
      * @since [v1.0]
@@ -760,7 +760,7 @@ class Helper
      *
      * This does not currently handle form request validation requiredness :(
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return bool
      */

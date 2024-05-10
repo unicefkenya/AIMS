@@ -4,7 +4,7 @@
     <head>
       <title>
         @section('title')
-         Snipe-IT Setup
+         Bewsys Setup
         @show
       </title>
         <link rel="stylesheet" href="{{ url(mix('css/dist/all.css')) }}">
@@ -57,7 +57,7 @@
           <div class="container">
               <div class="row">
                   <div class="col-lg-10 col-lg-offset-1">
-                    <h1 class="page-header">Snipe-IT Pre-Flight</h1>
+                    <h1 class="page-header">Bewsys Pre-Flight</h1>
                   </div>
                   <div class="col-lg-11 col-lg-offset-1">
 

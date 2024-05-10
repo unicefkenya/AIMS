@@ -489,7 +489,7 @@ h4 {
  Instead, we use CSS to add the icon into the table header, which leaves the column selector
  "title" text as-is.
 
- See https://github.com/snipe/snipe-it/issues/7989
+ See
 
  */
 th.css-barcode > .th-inner,

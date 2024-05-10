@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Validator;
 
 /**
  * This controller handles all actions related to Consumables for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @version    v1.0
  */
@@ -22,7 +22,7 @@ class ConsumablesController extends Controller
     /**
      * Return a view to display component information.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ConsumablesController::getDatatable() method that generates the JSON response
      * @since [v1.0]
      * @return \Illuminate\Contracts\View\View
@@ -38,7 +38,7 @@ class ConsumablesController extends Controller
     /**
      * Return a view to display the form view to create a new consumable
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ConsumablesController::postCreate() method that stores the form data
      * @since [v1.0]
      * @return \Illuminate\Contracts\View\View
@@ -55,7 +55,7 @@ class ConsumablesController extends Controller
     /**
      * Validate and store new consumable data.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ConsumablesController::getCreate() method that returns the form view
      * @since [v1.0]
      * @param ImageUploadRequest $request
@@ -94,7 +94,7 @@ class ConsumablesController extends Controller
     /**
      * Returns a form view to edit a consumable.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param  int $consumableId
      * @see ConsumablesController::postEdit() method that stores the form data.
      * @since [v1.0]
@@ -115,7 +115,7 @@ class ConsumablesController extends Controller
     /**
      * Returns a form view to edit a consumable.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param ImageUploadRequest $request
      * @param  int $consumableId
      * @return \Illuminate\Http\RedirectResponse
@@ -168,7 +168,7 @@ class ConsumablesController extends Controller
     /**
      * Delete a consumable.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param  int $consumableId
      * @since [v1.0]
      * @return \Illuminate\Http\RedirectResponse
@@ -188,7 +188,7 @@ class ConsumablesController extends Controller
     /**
      * Return a view to display component information.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ConsumablesController::getDataView() method that generates the JSON response
      * @since [v1.0]
      * @param int $consumableId

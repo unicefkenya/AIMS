@@ -40,7 +40,7 @@ class LicenseSeat extends SnipeModel implements ICompanyableChild
     /**
      * Determine whether the user should be required to accept the license
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v4.0]
      * @return bool
      */
@@ -57,7 +57,7 @@ class LicenseSeat extends SnipeModel implements ICompanyableChild
     /**
      * Establishes the seat -> license relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -69,7 +69,7 @@ class LicenseSeat extends SnipeModel implements ICompanyableChild
     /**
      * Establishes the seat -> assignee relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v1.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -81,7 +81,7 @@ class LicenseSeat extends SnipeModel implements ICompanyableChild
     /**
      * Establishes the seat -> asset relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v4.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -94,7 +94,7 @@ class LicenseSeat extends SnipeModel implements ICompanyableChild
      * Determines the assigned seat's location based on user
      * or asset its assigned to
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v4.0]
      * @return string
      */

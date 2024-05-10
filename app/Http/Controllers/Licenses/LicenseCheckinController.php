@@ -19,7 +19,7 @@ class LicenseCheckinController extends Controller
     /**
      * Makes the form view to check a license seat back into inventory.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param int $seatId
      * @param string $backTo
@@ -42,7 +42,7 @@ class LicenseCheckinController extends Controller
     /**
      * Validates and stores the license checkin action.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see LicenseCheckinController::create() method that provides the form view
      * @since [v1.0]
      * @param int $seatId

@@ -7,7 +7,7 @@ use App\Models\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
 /**
- * SnipePermissionsPolicy provides methods for handling the granular permissions used throughout Snipe-IT.
+ * BewsysPermissionsPolicy provides methods for handling the granular permissions used throughout Bewsys.
  * Each "area" of a permission (which is usually a model, like Assets, Departments, etc), has a setting
  * in config/permissions.php like view/create/edit/delete (and sometimes some extra stuff like
  * checkout/checkin, etc.)

@@ -15,17 +15,17 @@ use Illuminate\Support\Facades\Storage;
 
 /**
  * This class controls all actions related to asset models for
- * the Snipe-IT Asset Management application.
+ * the bewsys Asset Management application.
  *
  * @version    v4.0
- * @author [A. Gianotto] [<snipe@snipe.net>]
+ * @author 
  */
 class AssetModelsController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \Illuminate\Http\Response
      */
@@ -110,7 +110,7 @@ class AssetModelsController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \App\Http\Requests\ImageUploadRequest  $request
      * @return \Illuminate\Http\Response
@@ -133,7 +133,7 @@ class AssetModelsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -149,7 +149,7 @@ class AssetModelsController extends Controller
     /**
      * Display the specified resource's assets
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -166,7 +166,7 @@ class AssetModelsController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \App\Http\Requests\ImageUploadRequest  $request
      * @param  int  $id
@@ -185,7 +185,7 @@ class AssetModelsController extends Controller
          *
          * I have no idea why we manually overrode that field name
          * in previous versions. I assume there was a good reason for
-         * it, but I'll be damned if I can think of one. - snipe
+         * it, but I'll be damned if I can think of one. -
          */
         if ($request->filled('custom_fieldset_id')) {
             $assetmodel->fieldset_id = $request->get('custom_fieldset_id');
@@ -202,7 +202,7 @@ class AssetModelsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -233,7 +233,7 @@ class AssetModelsController extends Controller
     /**
      * Gets a paginated collection for the select2 menus
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0.16]
      * @see \App\Http\Transformers\SelectlistTransformer
      */

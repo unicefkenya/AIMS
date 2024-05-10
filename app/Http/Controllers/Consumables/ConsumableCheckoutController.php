@@ -15,7 +15,7 @@ class ConsumableCheckoutController extends Controller
     /**
      * Return a view to checkout a consumable to a user.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ConsumableCheckoutController::store() method that stores the data.
      * @since [v1.0]
      * @param int $consumableId
@@ -35,7 +35,7 @@ class ConsumableCheckoutController extends Controller
     /**
      * Saves the checkout information
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ConsumableCheckoutController::create() method that returns the form.
      * @since [v1.0]
      * @param int $consumableId

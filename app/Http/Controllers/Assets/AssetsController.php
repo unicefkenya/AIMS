@@ -34,10 +34,10 @@ use View;
 
 /**
  * This class controls all actions related to assets for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @version    v1.0
- * @author [A. Gianotto] [<snipe@snipe.net>]
+ * @author 
  */
 class AssetsController extends Controller
 {
@@ -54,7 +54,7 @@ class AssetsController extends Controller
      * Returns a view that invokes the ajax tables which actually contains
      * the content for the assets listing, which is generated in getDatatable.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see AssetController::getDatatable() method that generates the JSON response
      * @since [v1.0]
      * @param Request $request
@@ -72,7 +72,7 @@ class AssetsController extends Controller
     /**
      * Returns a view that presents a form to create a new asset.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @param Request $request
      * @return View
@@ -97,7 +97,7 @@ class AssetsController extends Controller
     /**
      * Validate and process new asset form data.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @return Redirect
      */
@@ -216,7 +216,7 @@ class AssetsController extends Controller
     /**
      * Returns a view that presents a form to edit an existing asset.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v1.0]
      * @return View
@@ -239,7 +239,7 @@ class AssetsController extends Controller
     /**
      * Returns a view that presents information about an asset for detail view.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v1.0]
      * @return View
@@ -281,7 +281,7 @@ class AssetsController extends Controller
     /**
      * Validate and process asset edit form.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v1.0]
      * @return Redirect
@@ -371,7 +371,7 @@ class AssetsController extends Controller
     /**
      * Delete a given asset (mark as deleted).
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v1.0]
      * @return Redirect
@@ -406,7 +406,7 @@ class AssetsController extends Controller
     /**
      * Searches the assets table by serial, and redirects if it finds one
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return Redirect
      */
@@ -424,7 +424,7 @@ class AssetsController extends Controller
     /**
      * Searches the assets table by asset tag, and redirects if it finds one
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return Redirect
      */
@@ -444,7 +444,7 @@ class AssetsController extends Controller
     /**
      * Return a QR code for the asset
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v1.0]
      * @return Response
@@ -481,7 +481,7 @@ class AssetsController extends Controller
     /**
      * Return a 2D barcode for the asset
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v1.0]
      * @return Response
@@ -540,7 +540,7 @@ class AssetsController extends Controller
     /**
      * Returns a view that presents a form to clone an asset.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v1.0]
      * @return View
@@ -570,7 +570,7 @@ class AssetsController extends Controller
     /**
      * Return history import view
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @return View
      */
@@ -592,7 +592,7 @@ class AssetsController extends Controller
      * Checkin date in the past, update history.
      * Checkin date in future or empty, check the item out to the user.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.3]
      * @return View
      */
@@ -747,7 +747,7 @@ class AssetsController extends Controller
     /**
      * Retore a deleted asset.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param int $assetId
      * @since [v1.0]
      * @return View

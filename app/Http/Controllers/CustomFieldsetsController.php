@@ -13,7 +13,7 @@ use Redirect;
 
 /**
  * This controller handles all actions related to Custom Asset Fields for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @todo Improve documentation here.
  * @todo Check for raw DB queries and try to convert them to query builder statements
@@ -197,7 +197,7 @@ class CustomFieldsetsController extends Controller
     /**
      * Set the field in a fieldset to required
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v5.0]
      */
     public function makeFieldRequired($fieldset_id, $field_id)
@@ -215,7 +215,7 @@ class CustomFieldsetsController extends Controller
     /**
      * Set the field in a fieldset to optional
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v5.0]
      */
     public function makeFieldOptional($fieldset_id, $field_id)

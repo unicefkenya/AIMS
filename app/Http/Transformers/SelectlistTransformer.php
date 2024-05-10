@@ -10,7 +10,7 @@ use Illuminate\Pagination\LengthAwarePaginator;
  * This handles the standardized formatting of the API response we need to provide for
  * the rich (text and images) Select2 javascript.
  *
- * @author [A. Gianotto] [<snipe@snipe.net>]
+ * @author 
  * @since [v4.0.16]
  * @return \Illuminate\Http\Response
  */

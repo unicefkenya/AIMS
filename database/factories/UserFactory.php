@@ -58,7 +58,7 @@ class UserFactory extends Factory
                 'last_name' => 'Head',
                 'username' => 'snipe',
                 'avatar' => '2.jpg',
-                'email' => 'snipe@snipe.net',
+                'email' => 'info@bewsys.com',
                 'permissions' => '{"superuser":"1"}',
             ];
         });

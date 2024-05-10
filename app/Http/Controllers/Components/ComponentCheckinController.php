@@ -18,7 +18,7 @@ class ComponentCheckinController extends Controller
     /**
      * Returns a view that allows the checkin of a component from an asset.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ComponentCheckinController::store() method that stores the data.
      * @since [v4.1.4]
      * @param $component_asset_id
@@ -28,7 +28,7 @@ class ComponentCheckinController extends Controller
     public function create($component_asset_id)
     {
 
-        // This could probably be done more cleanly but I am very tired. - @snipe
+        // This could probably be done more cleanly but I am very tired. -
         if ($component_assets = DB::table('components_assets')->find($component_asset_id)) {
             if (is_null($component = Component::find($component_assets->component_id))) {
                 return redirect()->route('components.index')->with('error', trans('admin/components/messages.not_found'));
@@ -48,7 +48,7 @@ class ComponentCheckinController extends Controller
     /**
      * Validate and store checkin data.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @see ComponentCheckinController::create() method that returns the form.
      * @since [v4.1.4]
      * @param Request $request

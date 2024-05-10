@@ -1,5 +1,5 @@
 <?php
-// Snipe-IT Heroku Startup Script
+// Bewsys Heroku Startup Script
 
 // If DB_<value> values are set, ignore parser.
 if (getenv("DB_DATABASE") || getenv("DB_HOST") || getenv("DB_USERNAME")) {

@@ -104,7 +104,7 @@ class Consumable extends SnipeModel
      *
      * @todo Update this comment once it's been implemented
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -119,7 +119,7 @@ class Consumable extends SnipeModel
     /**
      * Establishes the consumable -> admin user relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -131,7 +131,7 @@ class Consumable extends SnipeModel
     /**
      * Establishes the component -> assignments relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -143,7 +143,7 @@ class Consumable extends SnipeModel
     /**
      * Establishes the component -> company relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -155,7 +155,7 @@ class Consumable extends SnipeModel
     /**
      * Establishes the component -> manufacturer relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -167,7 +167,7 @@ class Consumable extends SnipeModel
     /**
      * Establishes the component -> location relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -179,7 +179,7 @@ class Consumable extends SnipeModel
     /**
      * Establishes the component -> category relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -192,7 +192,7 @@ class Consumable extends SnipeModel
     /**
      * Establishes the component -> action logs relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -204,7 +204,7 @@ class Consumable extends SnipeModel
     /**
      * Gets the full image url for the consumable
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return string | false
      */
@@ -220,7 +220,7 @@ class Consumable extends SnipeModel
     /**
      * Establishes the component -> users relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -234,7 +234,7 @@ class Consumable extends SnipeModel
      * Determine whether to send a checkin/checkout email based on
      * asset model category
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return bool
      */
@@ -246,7 +246,7 @@ class Consumable extends SnipeModel
     /**
      * Determine whether this asset requires acceptance by the assigned user
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return bool
      */
@@ -259,7 +259,7 @@ class Consumable extends SnipeModel
      * Checks for a category-specific EULA, and if that doesn't exist,
      * checks for a settings level EULA
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return string | false
      */
@@ -279,7 +279,7 @@ class Consumable extends SnipeModel
     /**
      * Check how many items within a consumable are checked out
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v5.0]
      * @return int
      */
@@ -294,7 +294,7 @@ class Consumable extends SnipeModel
     /**
      * Checks the number of available consumables
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return int
      */

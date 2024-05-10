@@ -91,7 +91,7 @@ class Component extends SnipeModel
     /**
      * Establishes the component -> location relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -103,7 +103,7 @@ class Component extends SnipeModel
     /**
      * Establishes the component -> assets relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -117,7 +117,7 @@ class Component extends SnipeModel
      *
      * @todo this is probably not needed - refactor
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -129,7 +129,7 @@ class Component extends SnipeModel
     /**
      * Establishes the component -> company relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -141,7 +141,7 @@ class Component extends SnipeModel
     /**
      * Establishes the component -> category relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -153,7 +153,7 @@ class Component extends SnipeModel
     /**
      * Establishes the component -> action logs relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -165,7 +165,7 @@ class Component extends SnipeModel
     /**
      * Check how many items within a component are checked out
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v5.0]
      * @return int
      */
@@ -182,7 +182,7 @@ class Component extends SnipeModel
     /**
      * Check how many items within a component are remaining
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return int
      */

@@ -8,9 +8,9 @@ use Illuminate\Support\Facades\Artisan;
 
 /**
  * This controller handles all actions related to the Admin Dashboard
- * for the Snipe-IT Asset Management application.
+ * for the Bewsys Asset Management application.
  *
- * @author A. Gianotto <snipe@snipe.net>
+ * @author
  * @version v1.0
  */
 class DashboardController extends Controller
@@ -19,7 +19,7 @@ class DashboardController extends Controller
      * Check authorization and display admin dashboard, otherwise display
      * the user's checked-out assets.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.0]
      * @return View
      */

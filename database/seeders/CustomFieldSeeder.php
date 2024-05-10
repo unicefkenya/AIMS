@@ -16,7 +16,7 @@ class CustomFieldSeeder extends Seeder
         $columns = DB::getSchemaBuilder()->getColumnListing('assets');
 
         foreach ($columns as $column) {
-            if (strpos($column, '_snipeit_') !== false) {
+            if (strpos($column, '_bewsys_') !== false) {
                 Schema::table('assets', function (Blueprint $table) use ($column) {
                     $table->dropColumn($column);
                 });

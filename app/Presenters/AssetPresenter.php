@@ -260,7 +260,7 @@ class AssetPresenter extends Presenter
 
         // Note: We do not need to e() escape the field names here, as they are already escaped when
         // they are presented in the blade view. If we escape them here, custom fields with quotes in their
-        // name can break the listings page. - snipe
+        // name can break the listings page.
         foreach ($fields as $field) {
             $layout[] = [
                 'field' => 'custom_fields.'.$field->convertUnicodeDbSlug(),

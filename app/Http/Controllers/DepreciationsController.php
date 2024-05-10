@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Auth;
 
 /**
  * This controller handles all actions related to Depreciations for
- * the Snipe-IT Asset Management application.
+ * the Bewsys Asset Management application.
  *
  * @version    v1.0
  */
@@ -18,7 +18,7 @@ class DepreciationsController extends Controller
      * Returns a view that invokes the ajax tables which actually contains
      * the content for the depreciation listing, which is generated in getDatatable.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net]
+     * @author 
      * @see DepreciationsController::getDatatable() method that generates the JSON response
      * @since [v1.0]
      * @return \Illuminate\Contracts\View\View
@@ -35,7 +35,7 @@ class DepreciationsController extends Controller
     /**
      * Returns a view that displays a form to create a new depreciation.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net]
+     * @author 
      * @see DepreciationsController::postCreate()
      * @since [v1.0]
      * @return \Illuminate\Contracts\View\View
@@ -52,7 +52,7 @@ class DepreciationsController extends Controller
     /**
      * Validates and stores the new depreciation data.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net]
+     * @author 
      * @see DepreciationsController::postCreate()
      * @since [v1.0]
      * @param Request $request
@@ -83,7 +83,7 @@ class DepreciationsController extends Controller
     /**
      * Returns a view that displays a form to update a depreciation.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net]
+     * @author 
      * @see DepreciationsController::postEdit()
      * @param int $depreciationId
      * @since [v1.0]
@@ -106,7 +106,7 @@ class DepreciationsController extends Controller
     /**
      * Validates and stores the updated depreciation data.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net]
+     * @author 
      * @see DepreciationsController::getEdit()
      * @param Request $request
      * @param int $depreciationId
@@ -143,7 +143,7 @@ class DepreciationsController extends Controller
      *
      * This is a hard-delete. We do not currently soft-delete depreciations.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net]
+     * @author 
      * @since [v1.0]
      * @param int $depreciationId
      * @return \Illuminate\Http\RedirectResponse
@@ -171,7 +171,7 @@ class DepreciationsController extends Controller
     /**
      * Returns a view that displays a form to display depreciation listing
      *
-     * @author [A. Gianotto] [<snipe@snipe.net]
+     * @author 
      * @see DepreciationsController::postEdit()
      * @param int $depreciationId
      * @since [v1.0]

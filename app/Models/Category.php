@@ -103,7 +103,7 @@ class Category extends SnipeModel
     /**
      * Establishes the category -> accessories relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -115,7 +115,7 @@ class Category extends SnipeModel
     /**
      * Establishes the category -> licenses relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.3]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -127,7 +127,7 @@ class Category extends SnipeModel
     /**
      * Establishes the category -> consumables relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -139,7 +139,7 @@ class Category extends SnipeModel
     /**
      * Establishes the category -> consumables relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -151,7 +151,7 @@ class Category extends SnipeModel
     /**
      * Get the number of items in the category
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return int
      */
@@ -176,7 +176,7 @@ class Category extends SnipeModel
     /**
      * Establishes the category -> assets relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -188,7 +188,7 @@ class Category extends SnipeModel
     /**
      * Establishes the category -> models relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -201,7 +201,7 @@ class Category extends SnipeModel
      * Checks for a category-specific EULA, and if that doesn't exist,
      * checks for a settings level EULA
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v2.0]
      * @return string | null
      */

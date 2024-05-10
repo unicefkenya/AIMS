@@ -15,7 +15,7 @@ class StatuslabelsController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return \Illuminate\Http\Response
      */
@@ -65,7 +65,7 @@ class StatuslabelsController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
@@ -101,7 +101,7 @@ class StatuslabelsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -118,7 +118,7 @@ class StatuslabelsController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \Illuminate\Http\Request  $request
      * @param  int  $id
@@ -156,7 +156,7 @@ class StatuslabelsController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -182,7 +182,7 @@ class StatuslabelsController extends Controller
      /**
      * Show a count of assets by status label for pie chart
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Http\Response
      */
@@ -226,7 +226,7 @@ class StatuslabelsController extends Controller
     /**
      * Display the specified resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int  $id
      * @return \Illuminate\Http\Response
@@ -263,7 +263,7 @@ class StatuslabelsController extends Controller
      * This is used by the hardware create/edit view to determine whether
      * we should provide a dropdown of users for them to check the asset out to.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return bool
      */

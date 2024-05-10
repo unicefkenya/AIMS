@@ -55,7 +55,7 @@ class Depreciation extends SnipeModel
     /**
      * Establishes the depreciation -> models relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v5.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -67,7 +67,7 @@ class Depreciation extends SnipeModel
     /**
      * Establishes the depreciation -> licenses relationship
      *
-     * @author A. Gianotto <snipe@snipe.net>
+     * @author
      * @since [v5.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */

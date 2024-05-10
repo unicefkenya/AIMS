@@ -103,7 +103,7 @@ class Accessory extends SnipeModel
     /**
      * Establishes the accessory -> supplier relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -116,7 +116,7 @@ class Accessory extends SnipeModel
     /**
      * Sets the requestable attribute on the accessory
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @return void
      */
@@ -131,7 +131,7 @@ class Accessory extends SnipeModel
     /**
      * Establishes the accessory -> company relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -143,7 +143,7 @@ class Accessory extends SnipeModel
     /**
      * Establishes the accessory -> location relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -155,7 +155,7 @@ class Accessory extends SnipeModel
     /**
      * Establishes the accessory -> category relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -167,7 +167,7 @@ class Accessory extends SnipeModel
     /**
      * Returns the action logs associated with the accessory
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -197,7 +197,7 @@ class Accessory extends SnipeModel
      *
      * It's super-mega-assy, but it's the best I could do for now.
      *
-     * @author  A. Gianotto <snipe@snipe.net>
+     * @author 
      * @since v5.0.0
      *
      * @see \App\Http\Controllers\Api\AccessoriesController\checkedout()
@@ -214,7 +214,7 @@ class Accessory extends SnipeModel
      * @todo this should probably be moved out of the model and into a
      * presenter or service provider
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return string
      */
@@ -230,7 +230,7 @@ class Accessory extends SnipeModel
     /**
      * Establishes the accessory -> users relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -242,7 +242,7 @@ class Accessory extends SnipeModel
     /**
      * Checks whether or not the accessory has users
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return int
      */
@@ -254,7 +254,7 @@ class Accessory extends SnipeModel
     /**
      * Establishes the accessory -> manufacturer relationship
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return \Illuminate\Database\Eloquent\Relations\Relation
      */
@@ -267,7 +267,7 @@ class Accessory extends SnipeModel
      * Determins whether or not an email should be sent for checkin/checkout of this
      * accessory based on the category it belongs to.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return bool
      */
@@ -280,7 +280,7 @@ class Accessory extends SnipeModel
      * Determines whether or not the accessory should require the user to
      * accept it via email.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return bool
      */
@@ -293,7 +293,7 @@ class Accessory extends SnipeModel
      * Checks for a category-specific EULA, and if that doesn't exist,
      * checks for a settings level EULA
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return string
      */
@@ -313,7 +313,7 @@ class Accessory extends SnipeModel
      /**
      * Check how many items within an accessory are checked out
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v5.0]
      * @return int
      */
@@ -328,7 +328,7 @@ class Accessory extends SnipeModel
     /**
      * Check how many items of an accessory remain
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v3.0]
      * @return int
      */

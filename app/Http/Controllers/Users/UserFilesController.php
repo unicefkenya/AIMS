@@ -18,7 +18,7 @@ class UserFilesController extends Controller
     /**
      * Return JSON response with a list of user details for the getIndex() view.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.6]
      * @param AssetFileRequest $request
      * @param int $userId
@@ -93,7 +93,7 @@ class UserFilesController extends Controller
     /**
      * Delete file
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.6]
      * @param  int $userId
      * @param  int $fileId
@@ -126,7 +126,7 @@ class UserFilesController extends Controller
     /**
      * Display/download the uploaded file
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v1.6]
      * @param  int $userId
      * @param  int $fileId

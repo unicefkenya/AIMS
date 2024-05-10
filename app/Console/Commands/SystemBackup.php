@@ -11,7 +11,7 @@ class SystemBackup extends Command
      *
      * @var string
      */
-    protected $name = 'snipeit:backup';
+    protected $name = 'bewsys:backup';
 
     /**
      * The console command description.

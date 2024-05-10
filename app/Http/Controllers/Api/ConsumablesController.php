@@ -17,7 +17,7 @@ class ConsumablesController extends Controller
     /**
      * Display a listing of the resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      *
      * @return \Illuminate\Http\Response
@@ -121,7 +121,7 @@ class ConsumablesController extends Controller
     /**
      * Store a newly created resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \App\Http\Requests\ImageUploadRequest $request
      * @return \Illuminate\Http\Response
@@ -143,7 +143,7 @@ class ConsumablesController extends Controller
     /**
      * Display the specified resource.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @param  int $id
      * @return \Illuminate\Http\Response
      */
@@ -158,7 +158,7 @@ class ConsumablesController extends Controller
     /**
      * Update the specified resource in storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  \App\Http\Requests\ImageUploadRequest $request
      * @param  int $id
@@ -181,7 +181,7 @@ class ConsumablesController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @author [A. Gianotto] [<snipe@snipe.net>]
+     * @author 
      * @since [v4.0]
      * @param  int $id
      * @return \Illuminate\Http\Response
@@ -199,7 +199,7 @@ class ConsumablesController extends Controller
     /**
     * Returns a JSON response containing details on the users associated with this consumable.
     *
-    * @author [A. Gianotto] [<snipe@snipe.net>]
+    * @author 
     * @see \App\Http\Controllers\Consumables\ConsumablesController::getView() method that returns the form.
     * @since [v1.0]
     * @param int $consumableId

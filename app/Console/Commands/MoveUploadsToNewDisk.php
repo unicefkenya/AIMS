@@ -12,7 +12,7 @@ class MoveUploadsToNewDisk extends Command
      *
      * @var string
      */
-    protected $signature = 'snipeit:move-uploads {delete_local?}';
+    protected $signature = 'bewsys:move-uploads {delete_local?}';
 
     /**
      * The console command description.
